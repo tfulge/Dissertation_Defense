@@ -1,0 +1,73 @@
+\usetheme{warsaw}
+ 
+\RequirePackage{tikz}
+
+
+
+% define the color for the template
+ 
+\definecolor{BIGSSSBlue}{rgb}{0.03, 0.27, 0.49}
+
+\usecolortheme[named=BIGSSSBlue]{structure}
+
+\newlength\barwidth
+\setlength\barwidth{60pt} % width of bars set here
+ 
+%\setbeamertemplate{footline}
+%{
+% \linethickness{0.25pt}
+% \framelatex{
+% \begin{beamercolorbox}[leftskip=.3cm,sep=0.1cm]{Location bar} 
+% \usebeamerfont{section in head/foot}
+% \includegraphics[width=2cm]{UB_logo.jpg}
+% \hfill
+%  Timm Fulge~|~The Political Economy of Higher Education~|~Dissertationskolloquium 13.05.2022
+% \hfill
+% \insertframenumber/\inserttotalframenumber
+% \end{beamercolorbox}}
+%}
+
+\setbeamertemplate{footline}{%
+  \linethickness{0.25pt}
+    \framelatex{
+    \begin{beamercolorbox}[wd=\paperwidth,sep=2pt]{Location bar}%
+      \parbox[c]{0pt}{\makebox[0pt][l]{% doesn't use any horizontal space
+        \includegraphics[height=\barwidth,width=\barwidth]{UB_logo.jpg}%
+      }}%
+      %\hspace{0.1\textwidth}%
+      \hfill
+      \parbox[c]{0.8\textwidth}{%
+        \usebeamerfont{title in head/foot}%
+        \hfill
+        Timm Fulge~|~The Political Economy of Higher Education~|~Dissertationskolloquium 13.05.2022
+        \hfill
+        \insertframenumber/\inserttotalframenumber
+% \end{beamercolorbox}}
+      }%
+      \hspace{0.1\textwidth}%
+    \end{beamercolorbox}}%
+}
+
+\makeatletter
+\def\ps@navigation@titlepage{%
+  \setbeamertemplate{footline}{}
+  \setbeamertemplate{headline}{}
+  \setbeamertemplate{navigation symbols}{}
+  \@nameuse{ps@navigation}}
+\addtobeamertemplate{title page}{\thispagestyle{navigation@titlepage}}{}
+\makeatother
+
+\titlegraphic{ 
+\begin{tikzpicture}[overlay,remember picture]
+\node[left=3.5cm] at (current page.-27){
+    \includegraphics[width=5cm]{Logos_Together.jpg}
+};
+\end{tikzpicture}
+}
+ 
+
+
+
+
+
+
