@@ -17,6 +17,8 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## R Markdown
 
+Ist es möglich, einen Umlaut zu zeigen?
+
 This article was written by @Ansell.2008b.
 
 The same author has supporting evidence [@Ansell.2013].

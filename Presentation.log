@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  2 MAY 2022 11:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  2 MAY 2022 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -845,14 +845,14 @@ Package pdftex.def Info: Logos_Together.jpg  used on input line 174.
 {d:/test/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Logos_Together.jpg>]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 186.
+Package pdftex.def Info: UB_logo.jpg  used on input line 188.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [2
 
  <./UB_Logo.jpg>]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 199.
+Package pdftex.def Info: UB_logo.jpg  used on input line 201.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [3
 
@@ -866,7 +866,7 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 218.
+Package pdftex.def Info: UB_logo.jpg  used on input line 220.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [4
 
@@ -874,31 +874,31 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 218.
 <Presentation_files/figure-beamer/pressure-1.pdf, id=65, 722.7pt x 505.89pt>
 File: Presentation_files/figure-beamer/pressure-1.pdf Graphic file (type pdf)
 <use Presentation_files/figure-beamer/pressure-1.pdf>
-Package pdftex.def Info: Presentation_files/figure-beamer/pressure-1.pdf  used on input line 223.
+Package pdftex.def Info: Presentation_files/figure-beamer/pressure-1.pdf  used on input line 225.
 (pdftex.def)             Requested size: 307.2923pt x 215.1046pt.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 223.
+Package pdftex.def Info: UB_logo.jpg  used on input line 225.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [5
 
  <./Presentation_files/figure-beamer/pressure-1.pdf>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 263.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 265.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 263.
+(Font)              <10.95> on input line 265.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 263.
+(Font)              <8> on input line 265.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 263.
+Package pdftex.def Info: UB_logo.jpg  used on input line 265.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [6
 
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 263.
+Package pdftex.def Info: UB_logo.jpg  used on input line 265.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [7
 
@@ -926,7 +926,7 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  99i,23n,112p,1009b,729s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {d:/test/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<d:/test/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss10.pfb><d:/test/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss12.pfb><d:/test/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb><d:/test/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><d:/test/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Presentation.pdf (7 pages, 334258 bytes).
+Output written on Presentation.pdf (7 pages, 334514 bytes).
 PDF statistics:
  131 PDF objects out of 1000 (max. 8388607)
  90 compressed objects within 1 object stream
