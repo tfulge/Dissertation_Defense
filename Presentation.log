@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.2)  2 MAY 2022 12:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.5.2)  2 MAY 2022 13:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,24 +683,24 @@ File: l3backend-pdftex.def 2022-04-20 L3 backend support: PDF output (pdfTeX)
 ) (./Presentation.aux)
 \openout1 = `Presentation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -741,7 +741,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 176.
+Package hyperref Info: Link coloring OFF on input line 177.
 (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -751,9 +751,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count357
 )
-LaTeX Info: Redefining \ref on input line 176.
-LaTeX Info: Redefining \pageref on input line 176.
-LaTeX Info: Redefining \nameref on input line 176.
+LaTeX Info: Redefining \ref on input line 177.
+LaTeX Info: Redefining \pageref on input line 177.
+LaTeX Info: Redefining \nameref on input line 177.
 (./Presentation.out) (./Presentation.out)
 \@outlinefile=\write6
 \openout6 = `Presentation.out'.
@@ -771,12 +771,12 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \microtypecontext on input line 176.
-Package microtype Info: Applying patch `item' on input line 176.
-Package microtype Info: Applying patch `toc' on input line 176.
-Package microtype Info: Applying patch `eqnum' on input line 176.
+LaTeX Info: Redefining \microtypecontext on input line 177.
+Package microtype Info: Applying patch `item' on input line 177.
+Package microtype Info: Applying patch `toc' on input line 177.
+Package microtype Info: Applying patch `eqnum' on input line 177.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 176.
+Package microtype Warning: Unable to apply patch `footnote' on input line 177.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -784,7 +784,7 @@ Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 176.
+LaTeX Info: Redefining \showhyphens on input line 177.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -796,37 +796,37 @@ Package microtype Info: Loading generic protrusion settings for font family
 <UB_logo.jpg, id=16, 1849.91125pt x 325.215pt>
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 176.
+Package pdftex.def Info: UB_logo.jpg  used on input line 177.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 176.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 177.
 (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 176.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 177.
 (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 176.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 177.
 (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 176.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 177.
 (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 176.
+(Font)              <6> on input line 177.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 176.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 176.
+(Font)              <5> on input line 177.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 177.
 (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 176.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 177.
 (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -835,21 +835,21 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <Logos_Together.jpg, id=32, 690.32906pt x 85.06781pt>
 File: Logos_Together.jpg Graphic file (type jpg)
 <use Logos_Together.jpg>
-Package pdftex.def Info: Logos_Together.jpg  used on input line 177.
+Package pdftex.def Info: Logos_Together.jpg  used on input line 178.
 (pdftex.def)             Requested size: 142.26625pt x 17.53116pt.
 [1
 
 {c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Logos_Together.jpg>]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 191.
+Package pdftex.def Info: UB_logo.jpg  used on input line 192.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [2
 
  <./UB_Logo.jpg>]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 204.
+Package pdftex.def Info: UB_logo.jpg  used on input line 205.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [3
 
@@ -863,42 +863,64 @@ File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ))
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 223.
+Package pdftex.def Info: UB_logo.jpg  used on input line 224.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [4
 
 ]
-<Presentation_files/figure-beamer/pressure-1.pdf, id=65, 722.7pt x 505.89pt>
-File: Presentation_files/figure-beamer/pressure-1.pdf Graphic file (type pdf)
-<use Presentation_files/figure-beamer/pressure-1.pdf>
-Package pdftex.def Info: Presentation_files/figure-beamer/pressure-1.pdf  used on input line 228.
-(pdftex.def)             Requested size: 307.2923pt x 215.1046pt.
+<Figures/Intro/Enrolment_over_time-1.pdf, id=65, 953.5625pt x 556.0775pt>
+File: Figures/Intro/Enrolment_over_time-1.pdf Graphic file (type pdf)
+<use Figures/Intro/Enrolment_over_time-1.pdf>
+Package pdftex.def Info: Figures/Intro/Enrolment_over_time-1.pdf  used on input line 238.
+(pdftex.def)             Requested size: 195.16147pt x 113.80995pt.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 228.
+Package pdftex.def Info: UB_logo.jpg  used on input line 238.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [5
 
- <./Presentation_files/figure-beamer/pressure-1.pdf>]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 268.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 268.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 268.
+ <./Figures/Intro/Enrolment_over_time-1.pdf>]
+<Presentation_files/figure-beamer/unnamed-chunk-2-1.pdf, id=81, 722.7pt x 505.89pt>
+File: Presentation_files/figure-beamer/unnamed-chunk-2-1.pdf Graphic file (type pdf)
+<use Presentation_files/figure-beamer/unnamed-chunk-2-1.pdf>
+Package pdftex.def Info: Presentation_files/figure-beamer/unnamed-chunk-2-1.pdf  used on input line 251.
+(pdftex.def)             Requested size: 307.2923pt x 215.1046pt.
+
+Overfull \vbox (31.00935pt too high) detected at line 251
+ []
+
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 268.
+Package pdftex.def Info: UB_logo.jpg  used on input line 251.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [6
 
-]
+ <./Presentation_files/figure-beamer/unnamed-chunk-2-1.pdf>]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 268.
+Package pdftex.def Info: UB_logo.jpg  used on input line 255.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [7
 
+]
+File: Figures/Intro/Enrolment_over_time-1.pdf Graphic file (type pdf)
+<use Figures/Intro/Enrolment_over_time-1.pdf>
+Package pdftex.def Info: Figures/Intro/Enrolment_over_time-1.pdf  used on input line 276.
+(pdftex.def)             Requested size: 147.4951pt x 86.01292pt.
+File: UB_logo.jpg Graphic file (type jpg)
+<use UB_logo.jpg>
+Package pdftex.def Info: UB_logo.jpg  used on input line 276.
+(pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
+[8
+
+]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 316.
+File: UB_logo.jpg Graphic file (type jpg)
+<use UB_logo.jpg>
+Package pdftex.def Info: UB_logo.jpg  used on input line 316.
+(pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
+[9
 
 ]
 \tf@nav=\write7
@@ -915,18 +937,18 @@ Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 27465 strings out of 480240
- 559023 string characters out of 5891804
- 817843 words of memory out of 5000000
- 44733 multiletter control sequences out of 15000+600000
- 505607 words of font info for 83 fonts, out of 8000000 for 9000
+ 27487 strings out of 480240
+ 559715 string characters out of 5891804
+ 818922 words of memory out of 5000000
+ 44751 multiletter control sequences out of 15000+600000
+ 503222 words of font info for 75 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,23n,112p,1009b,729s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Presentation.pdf (7 pages, 334498 bytes).
+{c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss10.pfb><c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss12.pfb><c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb><c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss9.pfb><c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso8.pfb><c:/Users/tfulg/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Presentation.pdf (9 pages, 366002 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
- 20604 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 20609 words of extra memory for PDF output out of 20736 (max. 10000000)
 
