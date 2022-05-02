@@ -3,11 +3,12 @@ title: "The Political Economy of Higher Education: Preferences, Inequality, and 
 subtitle: "Dissertationskolloquium"
 date: "13. Mai 2022"
 author: Timm Fulge
-
+bibliography: bib/mybib.bib
 output:
   beamer_presentation:
     theme: BIGSSS
     fonttheme: professionalfonts
+    slide_level: 2
 ---
 
 ```{r setup, include=FALSE}
@@ -16,15 +17,19 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## R Markdown
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+This article was written by @Ansell.2008b.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+The same author has supporting evidence [@Ansell.2013].
+
+Another argument was advanced by Garritzmann [-@garritzmann2016]
+
+Does Markdown automatically expand on the references section [@Pierson.1993; @Hall.1996; @Hall.2001]?
 
 ## Slide with Bullets
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+-   Bullet 1
+-   Bullet 2
+-   Bullet 3
 
 ## Slide with R Output
 
@@ -38,3 +43,4 @@ summary(cars)
 plot(pressure)
 ```
 
+## References {.allowframebreaks}
