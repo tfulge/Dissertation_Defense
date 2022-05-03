@@ -14,17 +14,38 @@ header-includes:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = FALSE) 
+
+library(tidyverse)
+
 ```
 
 ## Einstieg {.build}
 
-```{r, fig.cap = "Enrolment Ratios in 1997 and 2016",echo = F,warning = F, message = F, out.height= "8cm"}
-knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
+```{r, fig.cap = "Enrolment Ratios in 1997 and 2016",echo = F,warning = F, message = F, fig.height= 4}
+
+read.csv("Figures/OUP_enrol_MF_v1.csv") -> base.data
+
+base.data %>% 
+  filter(year > 1945, sex == "MF", region_code == "Advanced Economies", country != "Luxembourg") %>% 
+  mutate(color = case_when(country == "Germany" ~ "Germany",
+                           country == "USA" ~ "United States",
+                           country == "United Kingdom" ~ "United Kingdom",
+                           country == "Switzerland" ~ "Switzerland",
+                           country == "Finland" ~ "Finland",
+                           country == "Sweden" ~ "Sweden",
+                          TRUE ~ NA_character_)) %>% 
+  ggplot(aes(x = year, y = ter, group = country)) +
+  geom_line(alpha = 0.5) +
+  geom_line(data = . %>% filter(!is.na(color)),
+            aes(x = year, y = ter, group = country, color = color),
+            size = 1.5)
+
+
 ```
 
 
-## dfjkdjflkdj {.build}
+## dfjkdjflkdj 
 
 \begin{columns}
 \column{0.66\textwidth}
@@ -32,12 +53,23 @@ knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
 knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
 ```
 \column{0.33\textwidth}
+
+Hier wird Text eingebracht \newline
+\begin{itemize}[<+->]
+\item{test 1 2 3}
+\item{test 3 4 5}
 \begin{itemize}
-\item{test}
+\item{mano a mano}
 \end{itemize}
+\end{itemize}
+
+> - Eat eggs
+> - Drink coffee
+>    - Have at it
+
 \end{columns}
 
-## Einstieg {.build}
+## Einstieg 
 
 Ist es möglich, einen Umlaut zu zeigen?
 
@@ -49,11 +81,11 @@ Another argument was advanced by Garritzmann [-@garritzmann2016]
 
 Does Markdown automatically expand on the references section [@Pierson.1993; @Hall.1996; @Hall.2001]?
 
-## Slide with Bullets
+## Slide with (incremental) Bullets
 
--   Bullet 1
--   Bullet 2
--   Bullet 3
+> - Eat eggs
+> - Drink coffee
+>    - Have at it
 
 ## Slide with R Output
 
@@ -93,7 +125,9 @@ knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
 ```
 :::
 ::: {.column}
-- This text is meant to describe the picture shown on the left. Got it?
+> - Eat eggs
+> - Drink coffee
+>    - Have at it
 :::
 ::::::::::::::
 
