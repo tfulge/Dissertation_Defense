@@ -20,14 +20,15 @@ library(tidyverse)
 
 ```
 
-## Einstieg {.build}
+## Einstieg 
 
 ```{r, fig.cap = "Enrolment Ratios in 1997 and 2016",echo = F,warning = F, message = F, fig.height= 4}
 
 read.csv("Figures/OUP_enrol_MF_v1.csv") -> base.data
 
 base.data %>% 
-  filter(year > 1945, sex == "MF", region_code == "Advanced Economies", country != "Luxembourg") %>% 
+  filter(year > 1945, sex == "MF", region_code == "Advanced Economies", country != "Luxembourg",
+         country != "Turkey", country != "Portugal") %>% 
   mutate(color = case_when(country == "Germany" ~ "Germany",
                            country == "USA" ~ "United States",
                            country == "United Kingdom" ~ "United Kingdom",
@@ -35,11 +36,15 @@ base.data %>%
                            country == "Finland" ~ "Finland",
                            country == "Sweden" ~ "Sweden",
                           TRUE ~ NA_character_)) %>% 
-  ggplot(aes(x = year, y = ter, group = country)) +
-  geom_line(alpha = 0.5) +
+  select(country, year, color, secad, ter) %>% 
+  pivot_longer(names_to = "edulevel", values_to = "enrol", cols = 4:5) %>% 
+  ggplot(aes(x = year, y = enrol)) +
+  geom_line(alpha = 0.5, aes(group = country)) +
+ # geom_smooth(aes(y = enrol, x = year)) +
   geom_line(data = . %>% filter(!is.na(color)),
-            aes(x = year, y = ter, group = country, color = color),
-            size = 1.5)
+            aes(x = year, y = enrol, group = country, color = color),
+            size = 1.5) +
+  facet_wrap(~edulevel)
 
 
 ```
