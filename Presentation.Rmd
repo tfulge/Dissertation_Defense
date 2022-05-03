@@ -17,7 +17,27 @@ header-includes:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-## R Markdown
+## Einstieg {.build}
+
+```{r, fig.cap = "Enrolment Ratios in 1997 and 2016",echo = F,warning = F, message = F, out.height= "8cm"}
+knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
+```
+
+
+## dfjkdjflkdj {.build}
+
+\begin{columns}
+\column{0.66\textwidth}
+```{r, fig.cap = "Enrolment Ratios in 1997 and 2016",echo = F,warning = F, message = F, out.height= "6cm"}
+knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
+```
+\column{0.33\textwidth}
+\begin{itemize}
+\item{test}
+\end{itemize}
+\end{columns}
+
+## Einstieg {.build}
 
 Ist es möglich, einen Umlaut zu zeigen?
 
@@ -62,9 +82,8 @@ plot(pressure)
 
 - He doesnt, not even now?
 
-## Two column layout
 
-## TEST
+## Two column layout
 
 \footnotesize
 :::::::::::::: {.columns}
@@ -77,5 +96,14 @@ knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
 - This text is meant to describe the picture shown on the left. Got it?
 :::
 ::::::::::::::
+
+## Final Test
+
+Blocks
+
+\begin{alertblock}{Theses}
+1. The world is round \newline
+2. It goes around
+\end{alertblock}
 
 ## References {.allowframebreaks}
