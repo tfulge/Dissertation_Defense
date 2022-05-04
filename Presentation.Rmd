@@ -16,45 +16,64 @@ header-includes:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE) 
 
-library(tidyverse)
 
 ```
 
 ## Einstieg 
 
-```{r, fig.cap = "Enrolment Ratios in 1997 and 2016",echo = F,warning = F, message = F, fig.height= 4}
+```{r, fig.cap = "Enrolment in Secondary and Higher Education, Developed Countries, 1950-2010",echo = F,warning = F, message = F}
 
-read.csv("Figures/OUP_enrol_MF_v1.csv") -> base.data
-
-base.data %>% 
-  filter(year > 1945, sex == "MF", region_code == "Advanced Economies", country != "Luxembourg",
-         country != "Turkey", country != "Portugal") %>% 
-  mutate(color = case_when(country == "Germany" ~ "Germany",
-                           country == "USA" ~ "United States",
-                           country == "United Kingdom" ~ "United Kingdom",
-                           country == "Switzerland" ~ "Switzerland",
-                           country == "Finland" ~ "Finland",
-                           country == "Sweden" ~ "Sweden",
-                          TRUE ~ NA_character_)) %>% 
-  select(country, year, color, secad, ter) %>% 
-  pivot_longer(names_to = "edulevel", values_to = "enrol", cols = 4:5) %>% 
-  ggplot(aes(x = year, y = enrol)) +
-  geom_line(alpha = 0.5, aes(group = country)) +
- # geom_smooth(aes(y = enrol, x = year)) +
-  geom_line(data = . %>% filter(!is.na(color)),
-            aes(x = year, y = enrol, group = country, color = color),
-            size = 1.5) +
-  facet_wrap(~edulevel)
-
+knitr::include_graphics("Figures/FiguresEnrolment_over_time_new-1.pdf")
 
 ```
+\pause
 
+\begin{itemize}
+\item{Genereller Trend zur Expansion}
+\item{Hochschulbildung: Bemerkenswerte Varianz zwischen einzelnen Ländern (nicht nur in Bezug auf Enrolment)}
+\end{itemize}
+
+## Einstieg 
+
+Higher Education is special!
+
+\pause
+
+\begin{alertblock}{Leitfragen}
+\begin{itemize}[<+->]
+\item{Wie können Hochschulsysteme möglichst ganzheitlich konzeptualisiert werden?}
+\item{Welche Varianz zeigt sich zwischen Ländern sowie über die Zeit?}
+\item{Welche (re)distributiven Implikationen haben unterschiedliche Designs von Hochschulsystemen?}
+\item{Wie können Unterschiede erklärt werden?}
+\begin{itemize}
+\item{Sozio-ökonomischer Problemdruck}
+\item{Pfadabhängigkeiten}
+\item{Parteipolitik}
+\end{itemize}
+\end{itemize}
+\end{alertblock}
+
+## Einstieg
+
+**Kumulative Dissertation**, auf Englisch verfasst und bestehend Introduction und drei Einzelarbeiten in alleiniger Autorenschaft:
+
+\begin{itemize}
+\item{\textit{The Trilemma of Higher Education and Equality of Opportunity: Social Background, Access to Higher Education and the Moderating Impact of Enrolment and Public Subsidization}}
+\item{\textit{Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?}}
+\item{\textit{The Role of Parties in the Distributive Politics of Higher Education}}
+\end{itemize}
+
+## Stand der Forschung
+
+```{r, fig.cap = "Evolution der Literatur zum Forschungsgegenstand",echo = F,warning = F, message = F}
+knitr::include_graphics("Figures/Intro/EvolutionOfTheField.drawio.pdf")
+```
 
 ## dfjkdjflkdj 
 
 \begin{columns}
 \column{0.66\textwidth}
-```{r, fig.cap = "Enrolment Ratios in 1997 and 2016",echo = F,warning = F, message = F, out.height= "6cm"}
+```{r, fig.cap = "Evolution der Literatir",echo = F,warning = F, message = F, out.height= "6cm"}
 knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
 ```
 \column{0.33\textwidth}
@@ -145,4 +164,4 @@ Blocks
 2. It goes around
 \end{alertblock}
 
-## References {.allowframebreaks}
+## Referenzen {.allowframebreaks}
