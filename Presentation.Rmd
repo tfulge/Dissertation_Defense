@@ -69,11 +69,63 @@ Higher Education is special!
 knitr::include_graphics("Figures/Intro/EvolutionOfTheField.drawio.pdf")
 ```
 
+## Konzeptioneller Rahmen
+
+```{r, fig.cap = "Modell der politischen Ökonomie der Hochschulbildung",echo = F,warning = F, message = F}
+knitr::include_graphics("Figures/Intro/polecon_final.drawio.pdf")
+```
+
+## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Forschungsdesign)
+
+
+\begin{block}{Forschungsfrage}
+\scriptsize
+Wie strukturiert das institutionelle Design des Hochschulsystems den Zugang zu universitärer Bildung? Mindert oder verstärkt es Effekte sozialer Herkunft?
+\end{block}
+
+\pause
+
+\begin{exampleblock}{Theorie}
+\begin{itemize}
+\scriptsize
+\item{Ungleichheitsbezogene Bildungsforschung: Soziale Herkunft (hier = elterlicher Bildungsstand) sagt systematisch Erfolg im Bildungssystem voraus}
+\begin{itemize}
+\scriptsize
+\item{Kosten-Nutzen-Kalkulation: $P_{HE} = (p * U) - C_{HE}$}
+\end{itemize}
+\item{Politische Ökonomie der Hochschulbildung: Studierendenzahl (\textit{Enrolment}) und Level öffentlicher Bezuschussung (\textit{Public Subsidization}) könnte Kosten-Nutzen-Kalkulation beeinflussen}
+\end{itemize}
+\end{exampleblock}
+
+\pause 
+
+\begin{alertblock}{Daten \& Methode}
+\begin{itemize}
+\scriptsize
+\item{Zentrale Variablen: \textit{Student} (AV); \textit{Parental Education}, \textit{Enrolment}, \textit{Public Subsidization} (UVs)}
+\item{Daten: Gepoolte Wellen des European Social Survey (2002-2010), Makrodaten vom UNESCO Institute for Statistics (22 Länder, 16.278 Beobachtungen)}
+\item{Methode: Hierarchische logistische Regression mit Random Intercepts + Slopes}
+\end{itemize}
+\end{alertblock}
+
+## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Ergebnisse)
+
+H1: 
+
+## Beiträge der Dissertation zur Forschung
+
+- Ungleichheit im Zugang zu Hochschulbildung im Zentrum der Analyse
+  - Längs- und querschnittliche Effekte empirisch modelliert
+  - 
+
+- 
+
+
 ## dfjkdjflkdj 
 
 \begin{columns}
 \column{0.66\textwidth}
-```{r, fig.cap = "Evolution der Literatir",echo = F,warning = F, message = F, out.height= "6cm"}
+```{r, fig.cap = "Evolution der Literatur",echo = F,warning = F, message = F, out.height= "6cm"}
 knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
 ```
 \column{0.33\textwidth}
