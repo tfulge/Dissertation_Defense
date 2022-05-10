@@ -19,6 +19,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ```
 
+---
+nocite: |
+    @Thelen.2004,
+    @Streeck.2005
+    @Mahoney.2010b,
+    @Gerring.2007
+---
+
+
 ## Einstieg 
 
 ```{r, fig.cap = "Enrolment in Secondary and Higher Education, Developed Countries, 1950-2010",echo = F,warning = F, message = F}
@@ -109,11 +118,151 @@ Wie strukturiert das institutionelle Design des Hochschulsystems den Zugang zu u
 \end{alertblock}
 
 ## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Ergebnisse)
-
-H1: Je niedriger das elterliche Bildungsniveau, desto geringer die 
+**H1:** Je niedriger das elterliche Bildungsniveau, desto geringer die 
 Wahrscheinlichkeit, ein Studium aufzunehmen
+\scriptsize 
+$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} + \cdots + \zeta_{j} + \epsilon_{ij}$
+```{r, fig.cap = "Geschätzte Randmittel, Fixed Effect von elterlicher Bildung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/01_Inequality/Figure 4.jpg")
+```
+
+## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Ergebnisse)
+**H2:** Die Effektstärke der elterlichen Bildung auf die Studiumswahrscheinlichkeit variiert zwischen den Ländern
+\scriptsize 
+$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}x_{2ij} + \cdots + \zeta_{j}Parental\:Education_{ij} + \epsilon_{ij}$
+```{r, fig.cap = "Effekt elterlicher Bildung auf Studiumswahrscheinlichkeit, nach Ländern",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/01_Inequality/Figure 3.jpg")
+```
+
+## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Ergebnisse)
+**H3:** Die Effektstärke der elterlichen Bildung auf die Studiumswahrscheinlichkeit wird (auch) vom institutionellen Design des Hochschulsystems (*Enrolment*, *Public Subsidization*) beeinflusst
+\scriptsize 
+$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} *\beta_{3}Enrolment\: /\: Public\:Subsidization_{j} + \cdots + \zeta_{j} + \epsilon_{i}$
+```{r,echo = F,warning = F, message = F, , out.height= "5cm", fig.cap = ""}
+knitr::include_graphics("Figures/01_Inequality/RegTablet.JPG")
+```
+
+## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Ergebnisse)
+**H3:** Die Effektstärke der elterlichen Bildung auf die Studiumswahrscheinlichkeit wird (auch) vom institutionellen Design des Hochschulsystems (*Enrolment*, *Public Subsidization*) beeinflusst
+\scriptsize 
+$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} *\beta_{3}Enrolment\: /\: Public\:Subsidization_{j} + \cdots + \zeta_{j} + \epsilon_{i}$
+```{r, fig.cap = "Cross-Level Interaktionseffekt von elterlicher Bildung und öffentlicher Bezuschussung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/01_Inequality/Figure5.JPG")
+```
+
+## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Zusammenfassung)
+
+- Länderübergreifend starker Einfluss von sozialem Hintergrund auf Studiumswahrscheinlichkeit
+\pause
+- Effektstärke variiert erheblich zwischen den Ländern
+\pause
+- Teil der Varianz zwischen den Ländern kann mit dem Level öffentlicher Bezuschussung erklärt werden: Je generöser studentischer Subventionen sind, desto geringer fällt der Einfluss des sozialen Hintergrunds auf die Studiumswahrscheinlichkeit aus. Kein Effekt der Studierendenquote.
+\pause
+- Empirische Implikation: Trend zur Expansion des Hochschulsystems auf Kosten der Generösität der Subventionen könnte sich negativ auf sozialen Gradient auswirken
+```{r, fig.cap = "Entwicklung der Hochschulsysteme, Veränderung 2002-2010",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/01_Inequality/Figure2.JPG")
+```
 
 
+## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Forschungsdesign)
+
+
+\begin{block}{Forschungsfragen}
+\scriptsize
+\begin{itemize}
+\item{Wie kann das institutionelle Design von Hochschulsystemen beschrieben und über die Zeit nachgezeichnet werden?}
+\item{Mit welchen Hemmnissen und Zielkonflikten ist die Politik bei Reformbemühungen konfrontiert?}
+\item{Können generalisierbare parteipolitische Präferenzen zum Design von Hochschulsystemen identifiziert werden?}
+\end{itemize}
+\end{block}
+
+\pause
+
+\begin{exampleblock}{Theorie}
+\begin{itemize}
+\scriptsize
+\item{Theoriebildender Ansatz}
+\item{Analytischer Rahmen: Historischer Institutionalismus nach Kathleen Thelen (Thelen 2004, Streeck \& Thelen 2005, Mahoney \& Thelen 2010)}
+\end{itemize}
+\end{exampleblock}
+
+\pause 
+
+\begin{alertblock}{Daten \& Methode}
+\begin{itemize}
+\scriptsize
+\item{Daten: Primär- und Sekundärliteratur}
+\item{Methode: Dichte Beschreibung / Process Tracing}
+\item{Fallauswahl: Diverse case-selection strategy nach Gerring (2007), vier Reformperioden zwischen 1963-2015}
+\end{itemize}
+\end{alertblock}
+
+
+
+## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Ergebnisse)
+
+**Vier Perioden von Reformaktivität**
+  
+  \begin{itemize}
+\item{Nachkriegskonsens (1963-1979)}
+\begin{itemize}
+\item{Moderate, gut finanzierte Expansion des Hochschulsektors}
+\item{Großzügige Subventionen für Studierende, aber ausgeprägte soziale Ungleichheiten beim Hochschulzugang}
+\item{Hohes Maß an Qualität / Pro-Kopf-Finanzierung}
+\end{itemize}
+\item{Kürzungspolitik unter Tory-Regierungen (1979-1997)}
+\item{Wandel unter Labour (1997-2010)}
+\item{Tory-LibDem Koalition, 2010-2015}
+\end{itemize}
+
+## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Ergebnisse)
+
+**Vier Perioden von Reformaktivität**
+  
+\begin{itemize}
+\item{Nachkriegskonsens (1963-1979)}
+\item{Kürzungspolitik unter Tory-Regierungen (1979-1997)}
+\begin{itemize}
+\item{Massive Kürzungen der öffentlichen Mittel für Universitäten}
+\item{Zunächst Stagnation der Studierendenquote, später massive Expansion}
+\item{$\rightarrow$ Halbierung der Pro-Kopf-Finanzierung}
+\item{Reduzierung der Generösität von Stipendien für Studierende, Einführung von Studienkrediten}
+\item{Element der Stratifikation innterhalb des Hochschulsektors, Schutz der Eliteinstitutionen}
+\end{itemize}
+\item{Wandel unter Labour (1997-2010)}
+\item{Tory-LibDem Koalition, 2010-2015}
+\end{itemize}
+
+## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Ergebnisse)
+
+**Vier Perioden von Reformaktivität**
+  
+\begin{itemize}
+\item{Nachkriegskonsens (1963-1979)}
+\item{{Kürzungspolitik unter Tory-Regierungen (1979-1997)}
+\item{Wandel unter Labour (1997-2010)}
+\begin{itemize}
+\item{Einführung von Studiengebühren 1997, Erhöhung 2004}
+\item{Moderate Expansion der Studierendenquote}
+\item{Studiengebühren und leichte Erhöhung öffentlicher Mittel für Universitäten. Qualität bleibt stabil}
+\item{Einführung einkommensabhängiger Rückzahlung von Studienkrediten}
+\end{itemize}
+\item{Tory-LibDem Koalition, 2010-2015}
+\end{itemize}
+
+  ## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Ergebnisse)
+  
+  **Vier Perioden von Reformaktivität**
+    
+\begin{itemize}
+\item{Nachkriegskonsens (1963-1979)}
+\item{{Kürzungspolitik unter Tory-Regierungen (1979-1997)}
+\item{Wandel unter Labour (1997-2010)}
+\item{Tory-LibDem Koalition, 2010-2015}
+\begin{itemize}
+\item{Studiengebühren verdreifacht}
+\end{itemize}
+\end{itemize}
 
 ## Beiträge der Dissertation zur Forschung
 
@@ -128,7 +277,7 @@ Wahrscheinlichkeit, ein Studium aufzunehmen
 
 \begin{columns}
 \column{0.66\textwidth}
-```{r, fig.cap = "Evolution der Literatur",echo = F,warning = F, message = F, out.height= "6cm"}
+```{r, fig.cap = "Geschätzte Randmittel, Fixed Effect von elterlicher Bildung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, out.height= "6cm"}
 knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
 ```
 \column{0.33\textwidth}
