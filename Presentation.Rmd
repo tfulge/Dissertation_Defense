@@ -110,7 +110,10 @@ Wie strukturiert das institutionelle Design des Hochschulsystems den Zugang zu u
 
 ## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Ergebnisse)
 
-H1: 
+H1: Je niedriger das elterliche Bildungsniveau, desto geringer die 
+Wahrscheinlichkeit, ein Studium aufzunehmen
+
+
 
 ## Beiträge der Dissertation zur Forschung
 
