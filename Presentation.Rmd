@@ -239,24 +239,24 @@ knitr::include_graphics("Figures/01_Inequality/Figure2.JPG")
   
 \begin{itemize}
 \item{Nachkriegskonsens (1963-1979)}
-\item{{Kürzungspolitik unter Tory-Regierungen (1979-1997)}
+\item{Kürzungspolitik unter Tory-Regierungen (1979-1997)}
 \item{Wandel unter Labour (1997-2010)}
 \begin{itemize}
 \item{Einführung von Studiengebühren 1997, Erhöhung 2004}
 \item{Moderate Expansion der Studierendenquote}
-\item{Studiengebühren und leichte Erhöhung öffentlicher Mittel für Universitäten. Qualität bleibt stabil}
+\item{Studiengebühren + leichte Erhöhung öffentlicher Mittel für Universitäten = Qualität bleibt stabil}
 \item{Einführung einkommensabhängiger Rückzahlung von Studienkrediten}
 \end{itemize}
 \item{Tory-LibDem Koalition, 2010-2015}
 \end{itemize}
 
-  ## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Ergebnisse)
+## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Ergebnisse)
   
-  **Vier Perioden von Reformaktivität**
+**Vier Perioden von Reformaktivität**
     
 \begin{itemize}
 \item{Nachkriegskonsens (1963-1979)}
-\item{{Kürzungspolitik unter Tory-Regierungen (1979-1997)}
+\item{Kürzungspolitik unter Tory-Regierungen (1979-1997)}
 \item{Wandel unter Labour (1997-2010)}
 \item{Tory-LibDem Koalition, 2010-2015}
 \begin{itemize}
