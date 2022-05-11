@@ -72,16 +72,94 @@ Higher Education is special!
 \item{\textit{The Role of Parties in the Distributive Politics of Higher Education}}
 \end{itemize}
 
-## Stand der Forschung
 
-```{r, fig.cap = "Evolution der Literatur zum Forschungsgegenstand",echo = F,warning = F, message = F}
-knitr::include_graphics("Figures/Intro/EvolutionOfTheField.drawio.pdf")
-```
 
 ## Konzeptioneller Rahmen
 
-```{r, fig.cap = "Modell der politischen Ökonomie der Hochschulbildung",echo = F,warning = F, message = F}
-knitr::include_graphics("Figures/Intro/polecon_final.drawio.pdf")
+**Argument:** Das institutionelle Design von Hochschulsystemen kann mittels vier Komponenten beschrieben werden
+
+- Studierendenquote (*Enrolment*)
+- Soziale Ungleichheit beim Hochschulzugang (*Inequality of Access*)
+- Finanzierungsmechanismen (*Finance Mechanisms*)
+- Qualität (*Quality*)
+\pause
+
+$\rightarrow$ Kombination aus Komponenten bestimmt distributive Implikationen von Hochschulbildung, Feedback-Effekte und Handlungsspielräume für Politikwandel
+
+## Konzeptioneller Rahmen: *Studierendenquote / Soziale Ungleichheit beim Hochschulzugang*
+\footnotesize
+\pause
+- Alleinstellungsmerkmal Hochschulbildung: Zugang ist stark nach sozialer Herkunft stratifiziert
+- Literatur setzt beide Konzepte gleich, keine vergleichenden Daten zu Ungleichheit verfügbar
+- Eigenes Modell zeigt imperfekten Zusammenhang:
+\pause
+```{r, fig.cap = "Zusammenhang zwischen Studierendenquote und sozialer Ungleichheit beim Zugang zu Hochschulbildung",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/Intro/Enrolment_vs_Inequality-1.pdf")
+```
+
+## Konzeptioneller Rahmen: *Finanzierungsmechanismen*
+
+**Zwei Differenzierungen notwendig** (Ansell 2008, Garritzmann 2016):
+- Ausgaben für i) Hochschulen, ii) Subventionen für Studierende
+- Finanzierung der Hochschulen: Öffentlich vs. privat
+
+```{r, fig.cap = "Ausgaben für Hochschulen, aus öffentlichen und privaten Quellen und in Prozent des GDP, 2016",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/Intro/Spending_on_HEIs-1.pdf")
+```
+
+
+## Konzeptioneller Rahmen: *Finanzierungsmechanismen*
+
+**Zwei Differenzierungen notwendig** (Ansell 2008, Garritzmann 2016):
+- Ausgaben für i) Hochschulen, ii) Subventionen für Studierende
+- Finanzierung der Hochschulen: Öffentlich vs. privat
+
+```{r, fig.cap = "Zusammenhang zwischen Studierendenquote und Ausgaben für Hochschulen (kombiniert)",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/Intro/Tradeoff_Spending_Enrolment-1.pdf")
+```
+
+## Konzeptioneller Rahmen: *Finanzierungsmechanismen*
+
+**Zwei Differenzierungen notwendig** (Ansell 2008, Garritzmann 2016):
+- Ausgaben für i) Hochschulen, ii) Subventionen für Studierende
+- Finanzierung der Hochschulen: Öffentlich vs. privat
+
+```{r, fig.cap = "Ausgaben für Subventionen, Durchschnitt 1997-2016",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/Intro/Subsidies-1.pdf")
+```
+
+## Konzeptioneller Rahmen: *Finanzierungsmechanismen*
+
+**Zwei Differenzierungen notwendig** (Ansell 2008, Garritzmann 2016):
+- Ausgaben für i) Hochschulen, ii) Subventionen für Studierende
+- Finanzierung der Hochschulen: Öffentlich vs. privat
+
+```{r, fig.cap = "Zusammenhang zwischen Ausgaben für Subventionen und Ungleichheit im Zugang zu Hochschulbildung",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/Intro/Subsidies2-1.pdf")
+```
+
+## Konzeptioneller Rahmen: *Qualität*
+
+- Studierendenquote ist Treiber für Hochschulausgaben insgesamt, reduziert aber gleichzeitig die Ausgaben pro Kopf
+- $Qualität = \frac{Ausgaben\:Hochschulen}{Studierendenquote}$
+- Hohe Qualität kann nur bei Inkaufnahme von Trade-Offs erzielt werden
+```{r, fig.cap = "Entwicklung der Qualität der Hochschulbildung 1997-2016",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/Intro/Quality-1.pdf")
+```
+
+## Konzeptioneller Rahmen: *Qualität*
+
+- Studierendenquote ist Treiber für Hochschulausgaben insgesamt, reduziert aber gleichzeitig die Ausgaben pro Kopf
+- $Qualität = \frac{Ausgaben\:Hochschulen}{Studierendenquote}$
+- Hohe Qualität kann nur bei Inkaufnahme von Trade-Offs erzielt werden
+```{r, fig.cap = "Profil der Länder mit steigender Qualität der Hochschulbildung",echo = F,warning = F, message = F, , out.height= "5cm"}
+knitr::include_graphics("Figures/Intro/Decreasing_Quality-1.pdf")
+```
+
+## Konzeptioneller Rahmen: *Zusammenfassung*
+
+```{r, fig.cap = "Modell des Hochschulsystems und Wechselwirkungen",echo = F,warning = F, message = F}
+knitr::include_graphics("Figures/conceptual.frame.drawio.pdf")
 ```
 
 ## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Forschungsdesign)
@@ -329,108 +407,25 @@ $$y_{it} =  \beta_0 + \beta_{within}(x_{it} - \bar{x}_i) +
 ## Paper #3: *The Role of Parties in the Distributive Politics of Higher Education* (Ergebnisse)
 
 
+## Paper #3: *The Role of Parties in the Distributive Politics of Higher Education* (Zusammenfassung)
+
+\begin{itemize}
+\item(Moderate Hinweise auf systematischen Einfluss parteipolitischer Präferenzen)
+\begin{itemize}
+\item{\textbf{Ausgaben für Subventionen:} Linke Parteien erhöhen, rechte Parteien reduzieren Ausgaben (Effekt stabil wenn UK exkludiert)}
+\item{\textbf{Öffentliche Ausgaben für Hochschulen:} Nur between-Effekte (höhere Ausgaben, wenn rechte Parteien langfristig dominant)}
+\item{\textbf{Private Ausgaben für Hochschulen:} Linke Parteien fahren reduzieren Ausgaben, rechte erhöhen sie (marginal signifikant)}
+\item{\textbf{Qualität:}Qualität steigt unter rechten Regierungen}
+\end{itemize}
+\item{\textbf{Kein} moderierender Effekt von Ungleichheit im Zugang}
+\item{Veränderungen stärker von strukturellen Faktoren (z.B. GDP, Deindustrialisierung) getrieben als von Parteipolitik}
+\end{itemize}
+
 ## Beiträge der Dissertation zur Forschung
 
 - Ungleichheit im Zugang zu Hochschulbildung im Zentrum der Analyse
   - Längs- und querschnittliche Effekte empirisch modelliert
   - 
 
-- 
-
-
-## dfjkdjflkdj 
-
-\begin{columns}
-\column{0.66\textwidth}
-```{r, fig.cap = "Geschätzte Randmittel, Fixed Effect von elterlicher Bildung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, out.height= "6cm"}
-knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
-```
-\column{0.33\textwidth}
-
-Hier wird Text eingebracht \newline
-\begin{itemize}[<+->]
-\item{test 1 2 3}
-\item{test 3 4 5}
-\begin{itemize}
-\item{mano a mano}
-\end{itemize}
-\end{itemize}
-
-> - Eat eggs
-> - Drink coffee
->    - Have at it
-
-\end{columns}
-
-## Einstieg 
-
-Ist es möglich, einen Umlaut zu zeigen?
-
-This article was written by @Ansell.2008b.
-
-The same author has supporting evidence [@Ansell.2013].
-
-Another argument was advanced by Garritzmann [-@garritzmann2016]
-
-Does Markdown automatically expand on the references section [@Pierson.1993; @Hall.1996; @Hall.2001]?
-
-## Slide with (incremental) Bullets
-
-> - Eat eggs
-> - Drink coffee
->    - Have at it
-
-## Slide with R Output
-
-```{r cars, echo = TRUE}
-summary(cars)
-```
-
-## Slide with Plot
-
-```{r, fig.cap = "Illustration of higher education system ideal types",echo = F,warning = F, message = F, out.height= "4cm"}
-knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
-```
-
-- What happens if I put stuff here?
-
-- Doesn't seem to automatically resize the plot
-
-## Next slide with plot
-
-```{r}
-plot(pressure)
-```
-- Is he willing to do what I want here?
-
-- By which I mean automatically resizing the image at hand
-
-- He doesnt, not even now?
-
-
-## Two column layout
-
-\footnotesize
-:::::::::::::: {.columns}
-::: {.column}
-```{r, fig.cap = "Illustration of higher education system ideal types",echo = F,warning = F, message = F, out.height= "4cm"}
-knitr::include_graphics("Figures/Intro/Enrolment_over_time-1.pdf")
-```
-:::
-::: {.column}
-> - Eat eggs
-> - Drink coffee
->    - Have at it
-:::
-::::::::::::::
-
-## Final Test
-
-Blocks
-
-\begin{alertblock}{Theses}
-1. The world is round \newline
-2. It goes around
-\end{alertblock}
 
 ## Referenzen {.allowframebreaks}
