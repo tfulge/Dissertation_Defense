@@ -251,18 +251,83 @@ knitr::include_graphics("Figures/01_Inequality/Figure2.JPG")
 \end{itemize}
 
 ## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Ergebnisse)
-  
+
 **Vier Perioden von Reformaktivität**
-    
+  
 \begin{itemize}
 \item{Nachkriegskonsens (1963-1979)}
 \item{Kürzungspolitik unter Tory-Regierungen (1979-1997)}
 \item{Wandel unter Labour (1997-2010)}
 \item{Tory-LibDem Koalition, 2010-2015}
 \begin{itemize}
-\item{Studiengebühren verdreifacht}
+\item{Leichte Expansion}
+\item{Studiengebühren verdreifacht, Kreditanspruch entsprechend erhöht}
+\item{Massive Reduktion öffentlicher Mittel für Universitäten (-40\%)}
+\item{$\rightarrow$ Britisches Hochschulsystem heute mehrheitlich privat finanziert}
 \end{itemize}
 \end{itemize}
+
+## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Zusammenfassung)
+
+\begin{itemize}
+\item{Reformen angetrieben durch ökonomischen Problemdruck und Pfadabhängigkeiten, aber auch parteipolitischen Präferenzen}
+\begin{itemize}
+\item{\textbf{Bsp.:} Negative Feedback-Effekte durch Kombination aus generösen Pro-Kopf-Subventionen und steigender Studierendenquote}
+\end{itemize}
+\item{Parteiübergreifender Konsens über private Teilfinanzierung des Hochschulsystems}
+\item{\textbf{Tory:} Reduktion öffentlicher Mittel für Hochschulen, gleichzeitig Sicherung hoher Qualität an Eliteinstitutionen}
+\item{\textbf{Labour:} Fokus auf Reduktion von Ungleichheiten im Zugang zu Hochschulen}
+\end{itemize}
+
+## Paper #3: *The Role of Parties in the Distributive Politics of Higher Education* (Forschungsdesign)
+
+
+\begin{block}{Forschungsfrage}
+\scriptsize
+\begin{itemize}
+\item{Spielt die parteipolitische Zusammensetzung von Regierungen eine systematische Rolle bei der Entwicklung von Hochschulsystemen?}
+\begin{itemize}
+\scriptsize
+\item{Parteien machen keinen Unterschied (Busemeyer 2009, Garritzmann \& Seng 2015), bzw. nicht mehr (Garritzmann 2016)}
+\item{Linke (Boix 1997) bzw. rechte (Rauh et al. 2011) Parteien erhöhen öffentliche Mittel}
+\item{Parteipräferenzen sind abhängig von der gegenwärtigen Struktur des Hochschulsektors (Ansell 2008)}
+\end{itemize}
+\end{itemize}
+\end{block}
+
+\pause
+
+\begin{exampleblock}{Theorie}
+\begin{itemize}
+\scriptsize
+\item{Linke Parteien priorisieren Ermöglichung von Aufwärtsmobilität und Chancengleichheit, rechte Parteien möchten komparativen Vorteil ihrer Klientel schützen}
+\item{Präferenzen zur öffentlichen Finanzierung der Hochschulen hängen davon ab, inwieweit der Zugang sozial stratifiziert ist}
+\begin{itemize}
+\scriptsize
+\item{Bei ausgeprägter Ungleichheit: Rechte Parteien bevorzugen öffentliche, linke private Finanzierungsmechanismen}
+\item{Umkehr der Präferenzen bei sinkender Ungleichheit}
+\end{itemize}
+\end{itemize}
+\end{exampleblock}
+
+## Paper #3: *The Role of Parties in the Distributive Politics of Higher Education* (Forschungsdesign)
+
+\begin{alertblock}{Daten \& Methode}
+\begin{itemize}
+\scriptsize
+\item{AVs: Öffentliche Ausgaben für Subventionen (i) und Hochschulen (ii), private Ausgaben für Hochschulen (iii), Qualität des Hochschulsystems (iv)}
+\item{Zentrale UVs: Parteipolitische Zusammensetzung der Regierung (unterschiedliche Operationalisierungen), Studierendenquote und Ungleichheitslevel als Proxies für soziale Stratifikation}
+\item{Schätzstrategie: Hierarchische lineare Regression mit Random Intercepts und gruppenspezifische Mittelwertszentrierung (Bell \& Jones 2015, Shor et al. 2007)
+\newline
+$$y_{it} =  \beta_0 + \beta_{within}(x_{it} - \bar{x}_i) + 
+\beta_{between}\bar{x}_i + \zeta_i + \epsilon_{it}$$
+}
+\item{Stichprobe: N = 20, t = 19 (1997-2016), n = ~380}
+\end{itemize}
+\end{alertblock}
+
+## Paper #3: *The Role of Parties in the Distributive Politics of Higher Education* (Ergebnisse)
+
 
 ## Beiträge der Dissertation zur Forschung
 
