@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  12 MAY 2022 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  12 MAY 2022 21:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Presentation.tex
-(./Presentation.tex
+**Presentation_withnotes.tex
+(./Presentation_withnotes.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10> (y:/TinyTeX/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
@@ -691,8 +691,8 @@ File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count355
 \l__pdf_internal_box=\box84
-) (./Presentation.aux)
-\openout1 = `Presentation.aux'.
+) (./Presentation_withnotes.aux)
+\openout1 = `Presentation_withnotes.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
 LaTeX Font Info:    ... okay on input line 135.
@@ -765,9 +765,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 135.
 LaTeX Info: Redefining \pageref on input line 135.
 LaTeX Info: Redefining \nameref on input line 135.
-(./Presentation.out) (./Presentation.out)
+(./Presentation_withnotes.out) (./Presentation_withnotes.out)
 \@outlinefile=\write5
-\openout5 = `Presentation.out'.
+\openout5 = `Presentation_withnotes.out'.
 
 (y:/TinyTeX/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -805,7 +805,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(./Presentation.nav)
+(./Presentation_withnotes.nav)
 <UB_logo.jpg, id=16, 1849.91125pt x 325.215pt>
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
@@ -1815,13 +1815,13 @@ l.708 \end{frame}
 
 ]
 \tf@nav=\write6
-\openout6 = `Presentation.nav'.
+\openout6 = `Presentation_withnotes.nav'.
 
 \tf@toc=\write7
-\openout7 = `Presentation.toc'.
+\openout7 = `Presentation_withnotes.toc'.
 
 \tf@snm=\write8
-\openout8 = `Presentation.snm'.
+\openout8 = `Presentation_withnotes.snm'.
 
 [37
 
@@ -1840,20 +1840,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.36}) has 
 l.710 \end{document}
                     
 
-] (./Presentation.aux)
-Package rerunfilecheck Info: File `Presentation.out' has not changed.
+] (./Presentation_withnotes.aux)
+Package rerunfilecheck Info: File `Presentation_withnotes.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
  28872 strings out of 480173
- 580308 string characters out of 5890496
- 896269 words of memory out of 5000000
+ 580518 string characters out of 5890496
+ 896299 words of memory out of 5000000
  45995 multiletter control sequences out of 15000+600000
  537179 words of font info for 149 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,23n,112p,1009b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,23n,112p,1019b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss12.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss9.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso12.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Presentation.pdf (36 pages, 3537999 bytes).
+Output written on Presentation_withnotes.pdf (36 pages, 3537999 bytes).
 PDF statistics:
  776 PDF objects out of 1000 (max. 8388607)
  502 compressed objects within 6 object streams

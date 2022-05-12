@@ -11,7 +11,7 @@ output:
     slide_level: 2
 header-includes:
   - \AtBeginEnvironment{CSLReferences}{\tiny} # small font size in references section
-  - \setbeameroption{show notes on second screen}
+  #- \setbeameroption{show notes on second screen}
 ---
 
 ```{r setup, include=FALSE}

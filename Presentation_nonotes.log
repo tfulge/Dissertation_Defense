@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  12 MAY 2022 21:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  12 MAY 2022 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Presentation.tex
-(./Presentation.tex
+**Presentation_nonotes.tex
+(./Presentation_nonotes.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-04-10> (y:/TinyTeX/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2022/02/08 v3.66 A class for typesetting presentations
@@ -683,35 +683,33 @@ Package microtype Info: Loading configuration file microtype.cfg.
 (y:/TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
 ))
-\pgfpages@box@1=\box82
-\pgfpages@box@2=\box83
 \cslhangindent=\skip69
 \csllabelwidth=\skip70
 (y:/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-04-14 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count355
-\l__pdf_internal_box=\box84
-) (./Presentation.aux)
-\openout1 = `Presentation.aux'.
+\l__pdf_internal_box=\box82
+) (./Presentation_nonotes.aux)
+\openout1 = `Presentation_nonotes.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 134.
+LaTeX Font Info:    ... okay on input line 134.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -752,7 +750,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 (y:/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring OFF on input line 135.
+Package hyperref Info: Link coloring OFF on input line 134.
 (y:/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 (y:/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
@@ -762,12 +760,12 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count356
 )
-LaTeX Info: Redefining \ref on input line 135.
-LaTeX Info: Redefining \pageref on input line 135.
-LaTeX Info: Redefining \nameref on input line 135.
-(./Presentation.out) (./Presentation.out)
+LaTeX Info: Redefining \ref on input line 134.
+LaTeX Info: Redefining \pageref on input line 134.
+LaTeX Info: Redefining \nameref on input line 134.
+(./Presentation_nonotes.out) (./Presentation_nonotes.out)
 \@outlinefile=\write5
-\openout5 = `Presentation.out'.
+\openout5 = `Presentation_nonotes.out'.
 
 (y:/TinyTeX/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
@@ -784,12 +782,12 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Info: Redefining \microtypecontext on input line 135.
-Package microtype Info: Applying patch `item' on input line 135.
-Package microtype Info: Applying patch `toc' on input line 135.
-Package microtype Info: Applying patch `eqnum' on input line 135.
+LaTeX Info: Redefining \microtypecontext on input line 134.
+Package microtype Info: Applying patch `item' on input line 134.
+Package microtype Info: Applying patch `toc' on input line 134.
+Package microtype Info: Applying patch `eqnum' on input line 134.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 135.
+Package microtype Warning: Unable to apply patch `footnote' on input line 134.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -797,7 +795,7 @@ Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 135.
+LaTeX Info: Redefining \showhyphens on input line 134.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -805,41 +803,41 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-(./Presentation.nav)
+(./Presentation_nonotes.nav)
 <UB_logo.jpg, id=16, 1849.91125pt x 325.215pt>
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 135.
+Package pdftex.def Info: UB_logo.jpg  used on input line 134.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 135.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 134.
 (y:/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (y:/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 135.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 134.
 (y:/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 135.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 134.
 (y:/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 135.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 134.
 (y:/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 135.
+(Font)              <6> on input line 134.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 135.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 135.
+(Font)              <5> on input line 134.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 134.
 (y:/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (y:/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 135.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 134.
 (y:/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (y:/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
@@ -848,1015 +846,459 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 <Logos_Together.jpg, id=32, 690.32906pt x 85.06781pt>
 File: Logos_Together.jpg Graphic file (type jpg)
 <use Logos_Together.jpg>
-Package pdftex.def Info: Logos_Together.jpg  used on input line 136.
+Package pdftex.def Info: Logos_Together.jpg  used on input line 135.
 (pdftex.def)             Requested size: 142.26625pt x 17.53116pt.
+[1
+
+{y:/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Logos_Together.jpg>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 155.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 154.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 155.
+Package pdftex.def Info: UB_logo.jpg  used on input line 154.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [2
 
-{y:/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation1}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.155 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.155 \end{frame}
-                 
-
- <./Logos_Together.jpg>]
+ <./UB_Logo.jpg>]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 194.
+Package pdftex.def Info: UB_logo.jpg  used on input line 193.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [3
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation2}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
+]
+pdfTeX warning (ext4): destination with the same identifier (name{konzeptioneller-rahmen}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.193 \end{frame}
                  
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
-                 
-
- <./UB_Logo.jpg>]
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 194.
-(y:/TinyTeX/texmf-dist/tex/latex/lm/ts1lmss.fd
-File: ts1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Overfull \vbox (43.58446pt too high) detected at line 194
- []
-
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 194.
+Package pdftex.def Info: UB_logo.jpg  used on input line 193.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [4
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation3}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
-                 
-
 ]
-Overfull \vbox (43.58446pt too high) detected at line 194
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{konzeptioneller-rahmen}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.194 \end{frame}
+l.193 \end{frame}
                  
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 194.
+Package pdftex.def Info: UB_logo.jpg  used on input line 193.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [5
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{konzeptioneller-rahmen}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation4}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
-                 
-
 ]
-Overfull \vbox (43.58446pt too high) detected at line 194
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{konzeptioneller-rahmen}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.194 \end{frame}
+l.193 \end{frame}
                  
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 194.
+Package pdftex.def Info: UB_logo.jpg  used on input line 193.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [6
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation5}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
-                 
-
 ]
-Overfull \vbox (43.58446pt too high) detected at line 194
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{konzeptioneller-rahmen}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.194 \end{frame}
+l.193 \end{frame}
                  
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 194.
+Package pdftex.def Info: UB_logo.jpg  used on input line 193.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [7
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation6}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.194 \end{frame}
-                 
-
 ]
-Overfull \vbox (43.58446pt too high) detected at line 194
- []
-
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 222.
+Package pdftex.def Info: UB_logo.jpg  used on input line 221.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [8
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation7}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.222 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.222 \end{frame}
-                 
-
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 254.
+Package pdftex.def Info: UB_logo.jpg  used on input line 253.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [9
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation8}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.254 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.254 \end{frame}
-                 
-
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 292.
+Package pdftex.def Info: UB_logo.jpg  used on input line 291.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [10
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation9}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.292 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.292 \end{frame}
-                 
-
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 326.
+(Font)              <10.95> on input line 325.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 326.
+(Font)              <8> on input line 325.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 326.
+Package pdftex.def Info: UB_logo.jpg  used on input line 325.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [11
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation10}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.326 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.326 \end{frame}
-                 
-
 ]
+pdfTeX warning (ext4): destination with the same identifier (name{konzeptioneller-rahmen-4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.325 \end{frame}
+                 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 326.
+Package pdftex.def Info: UB_logo.jpg  used on input line 325.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [12
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation11}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.326 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.326 \end{frame}
-                 
 
 ]
 
 pdfTeX warning: pdflatex.exe (file ./Figures/conceptual.frame.drawio.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Figures/conceptual.frame.drawio.pdf, id=174, 499.8675pt x 335.33278pt>
+<Figures/conceptual.frame.drawio.pdf, id=165, 499.8675pt x 335.33278pt>
 File: Figures/conceptual.frame.drawio.pdf Graphic file (type pdf)
 <use Figures/conceptual.frame.drawio.pdf>
-Package pdftex.def Info: Figures/conceptual.frame.drawio.pdf  used on input line 343.
+Package pdftex.def Info: Figures/conceptual.frame.drawio.pdf  used on input line 342.
 (pdftex.def)             Requested size: 296.89474pt x 199.16986pt.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <14.4> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 343.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 342.
 
-Overfull \vbox (5.35588pt too high) detected at line 343
+Overfull \vbox (5.35588pt too high) detected at line 342
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 343.
+Package pdftex.def Info: UB_logo.jpg  used on input line 342.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [13
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{konzeptioneller-rahmen-4}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.343 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation12}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.343 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.343 \end{frame}
-                 
-
-]
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 343.
+ <./Figures/conceptual.frame.drawio.pdf>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 378.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 377.
 
-Overfull \vbox (2.93439pt too high) detected at line 378
+Overfull \vbox (2.93439pt too high) detected at line 377
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 378.
+Package pdftex.def Info: UB_logo.jpg  used on input line 377.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [14
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation13}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.378 \end{frame}
+]
+pdfTeX warning (ext4): destination with the same identifier (name{paper-1-the-trilemma-of-higher-education-and-equality-of-opportunity-forschungsdesign}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.377 \end{frame}
                  
-pdfTeX warning (ext4): destination with the same identifier (name{page.13}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.378 \end{frame}
-                 
-
- <./Figures/conceptual.frame.drawio.pdf>]
-Overfull \vbox (2.93439pt too high) detected at line 378
+Overfull \vbox (2.93439pt too high) detected at line 377
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 378.
+Package pdftex.def Info: UB_logo.jpg  used on input line 377.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [15
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation14}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.378 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.14}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.378 \end{frame}
-                 
-
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{paper-1-the-trilemma-of-higher-education-and-equality-of-opportunity-forschungsdesign}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.378 \end{frame}
+l.377 \end{frame}
                  
-Overfull \vbox (2.93439pt too high) detected at line 378
+Overfull \vbox (2.93439pt too high) detected at line 377
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 378.
+Package pdftex.def Info: UB_logo.jpg  used on input line 377.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [16
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{paper-1-the-trilemma-of-higher-education-and-equality-of-opportunity-forschungsdesign}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.378 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation15}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.378 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.15}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.378 \end{frame}
-                 
-
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{paper-1-the-trilemma-of-higher-education-and-equality-of-opportunity-forschungsdesign}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.378 \end{frame}
+l.377 \end{frame}
                  
-Overfull \vbox (2.93439pt too high) detected at line 378
+Overfull \vbox (2.93439pt too high) detected at line 377
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 378.
+Package pdftex.def Info: UB_logo.jpg  used on input line 377.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [17
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation16}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.378 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.16}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.378 \end{frame}
-                 
-
 ]
-<Figures/01_Inequality/Figure 4.jpg, id=350, 4015.0pt x 2919.90875pt>
+<Figures/01_Inequality/Figure 4.jpg, id=336, 4015.0pt x 2919.90875pt>
 File: Figures/01_Inequality/Figure 4.jpg Graphic file (type jpg)
 <use Figures/01_Inequality/Figure 4.jpg>
-Package pdftex.def Info: Figures/01_Inequality/Figure 4.jpg  used on input line 390.
+Package pdftex.def Info: Figures/01_Inequality/Figure 4.jpg  used on input line 389.
 (pdftex.def)             Requested size: 195.61559pt x 142.26144pt.
 
-Overfull \vbox (6.38373pt too high) detected at line 390
+Overfull \vbox (6.38373pt too high) detected at line 389
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 390.
+Package pdftex.def Info: UB_logo.jpg  used on input line 389.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [18
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation17}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.390 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.17}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.390 \end{frame}
-                 
-
-]
-<Figures/01_Inequality/Figure 3.jpg, id=357, 4015.0pt x 2919.90875pt>
+ <./Figures/01_Inequality/Figure 4.jpg>]
+<Figures/01_Inequality/Figure 3.jpg, id=345, 4015.0pt x 2919.90875pt>
 File: Figures/01_Inequality/Figure 3.jpg Graphic file (type jpg)
 <use Figures/01_Inequality/Figure 3.jpg>
-Package pdftex.def Info: Figures/01_Inequality/Figure 3.jpg  used on input line 410.
+Package pdftex.def Info: Figures/01_Inequality/Figure 3.jpg  used on input line 409.
 (pdftex.def)             Requested size: 195.61559pt x 142.26144pt.
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 410--410
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 409--409
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--410
+Underfull \hbox (badness 10000) in paragraph at lines 409--409
 
  []
 
 
-Overfull \vbox (11.08376pt too high) detected at line 410
+Overfull \vbox (11.08376pt too high) detected at line 409
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 410.
+Package pdftex.def Info: UB_logo.jpg  used on input line 409.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [19
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation18}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.410 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.18}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.410 \end{frame}
-                 
-
- <./Figures/01_Inequality/Figure 4.jpg>]
-Overfull \hbox (141.65082pt too wide) detected at line 435
+ <./Figures/01_Inequality/Figure 3.jpg>]
+Overfull \hbox (141.65082pt too wide) detected at line 434
 \OML/lmm/m/it/8 logit\OMS/lmsy/m/n/8 f\OML/lmm/m/it/8 Pr\OT1/lmr/m/n/8 (\OML/lmm/m/it/8 Student[] \OT1/lmr/m/n/8 = 1\OMS/lmsy/m/n/8 j\OML/lmm/m/it/8 ; x[]\OMS/lmsy/m/n/8 j\OML/lmm/m/it/8 ; ^^P[]\OT1/lmr/m/n/8 )\OMS/lmsy/m/n/8 g \OT1/lmr/m/n/8 = \OML/lmm/m/it/8 ^^L[] \OT1/lmr/m/n/8 + \OML/lmm/m/it/8 ^^L[]Parental Education[] \OMS/lmsy/m/n/8 ^^C \OML/lmm/m/it/8 ^^L[]Enrolment = Public Subsidization[] \OT1/lmr/m/n/8 + [] + \OML/lmm/m/it/8 ^^P[] \OT1/lmr/m/n/8 + \OML/lmm/m/it/8 ^^O[]
  []
 
-<Figures/01_Inequality/Figure5.jpg, id=368, 4015.0pt x 2919.90875pt>
+<Figures/01_Inequality/Figure5.jpg, id=354, 4015.0pt x 2919.90875pt>
 File: Figures/01_Inequality/Figure5.jpg Graphic file (type jpg)
 <use Figures/01_Inequality/Figure5.jpg>
-Package pdftex.def Info: Figures/01_Inequality/Figure5.jpg  used on input line 435.
+Package pdftex.def Info: Figures/01_Inequality/Figure5.jpg  used on input line 434.
 (pdftex.def)             Requested size: 156.46797pt x 113.79132pt.
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 435--435
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 434--434
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--435
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 
  []
 
 
-Overfull \vbox (34.16359pt too high) detected at line 435
+Overfull \vbox (34.16359pt too high) detected at line 434
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 435.
+Package pdftex.def Info: UB_logo.jpg  used on input line 434.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [20
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation19}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.435 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.19}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.435 \end{frame}
-                 
-
- <./Figures/01_Inequality/Figure 3.jpg>]
-Overfull \vbox (5.54532pt too high) detected at line 477
+ <./Figures/01_Inequality/Figure5.jpg>]
+Overfull \vbox (5.54532pt too high) detected at line 476
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 477.
+Package pdftex.def Info: UB_logo.jpg  used on input line 476.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [21
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation20}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.477 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.20}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.477 \end{frame}
-                 
-
- <./Figures/01_Inequality/Figure5.jpg>]
-Overfull \vbox (9.10228pt too high) detected at line 477
- []
-
-
-Overfull \vbox (5.54532pt too high) detected at line 477
- []
-
-File: UB_logo.jpg Graphic file (type jpg)
-<use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 477.
-(pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
-[22
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation21}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.477 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.21}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.477 \end{frame}
-                 
-
 ]
-Overfull \vbox (9.10228pt too high) detected at line 477
- []
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{paper-2-explaining-institutional-change-in-uk-higher-education-towards-a-partisan-theory-forschungsdesign}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.477 \end{frame}
+l.476 \end{frame}
                  
-Overfull \vbox (5.54532pt too high) detected at line 477
+Overfull \vbox (5.54532pt too high) detected at line 476
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 477.
+Package pdftex.def Info: UB_logo.jpg  used on input line 476.
+(pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
+[22
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{paper-2-explaining-institutional-change-in-uk-higher-education-towards-a-partisan-theory-forschungsdesign}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.476 \end{frame}
+                 
+Overfull \vbox (5.54532pt too high) detected at line 476
+ []
+
+File: UB_logo.jpg Graphic file (type jpg)
+<use UB_logo.jpg>
+Package pdftex.def Info: UB_logo.jpg  used on input line 476.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [23
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{paper-2-explaining-institutional-change-in-uk-higher-education-towards-a-partisan-theory-forschungsdesign}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.477 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation22}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.477 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.22}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.477 \end{frame}
-                 
-
 ]
-Overfull \vbox (9.10228pt too high) detected at line 477
- []
-
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 496.
+Package pdftex.def Info: UB_logo.jpg  used on input line 495.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [24
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation23}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.496 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.23}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.496 \end{frame}
-                 
-
 ]
-Overfull \vbox (9.10228pt too high) detected at line 496
- []
-
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 521.
+Package pdftex.def Info: UB_logo.jpg  used on input line 520.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [25
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation24}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.521 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.24}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.521 \end{frame}
-                 
-
 ]
-Overfull \vbox (9.10228pt too high) detected at line 521
- []
-
-
-Overfull \vbox (15.58446pt too high) detected at line 521
- []
-
-
-Overfull \vbox (4.80011pt too high) detected at line 553
+Overfull \vbox (4.80011pt too high) detected at line 552
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 553.
+Package pdftex.def Info: UB_logo.jpg  used on input line 552.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [26
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation25}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.553 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.25}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.553 \end{frame}
-                 
-
 ]
-Overfull \vbox (4.80011pt too high) detected at line 553
+pdfTeX warning (ext4): destination with the same identifier (name{paper-3-the-role-of-parties-in-the-distributive-politics-of-higher-education-forschungsdesign}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.552 \end{frame}
+                 
+Overfull \vbox (4.80011pt too high) detected at line 552
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 553.
+Package pdftex.def Info: UB_logo.jpg  used on input line 552.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [27
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation26}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.553 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.26}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.553 \end{frame}
-                 
-
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 571.
+Package pdftex.def Info: UB_logo.jpg  used on input line 570.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [28
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{paper-3-the-role-of-parties-in-the-distributive-politics-of-higher-education-forschungsdesign}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.571 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation27}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.571 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.27}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.571 \end{frame}
-                 
-
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 587.
+Package pdftex.def Info: UB_logo.jpg  used on input line 586.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [29
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation28}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.587 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.28}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.587 \end{frame}
-                 
-
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 609.
+Package pdftex.def Info: UB_logo.jpg  used on input line 608.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [30
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation29}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.609 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.29}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.609 \end{frame}
-                 
-
 ]
+pdfTeX warning (ext4): destination with the same identifier (name{beitruxe4ge-der-dissertation-zur-forschung}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.608 \end{frame}
+                 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 609.
+Package pdftex.def Info: UB_logo.jpg  used on input line 608.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [31
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation30}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.609 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.30}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.609 \end{frame}
-                 
-
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 617.
+Package pdftex.def Info: UB_logo.jpg  used on input line 616.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [32
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{beitruxe4ge-der-dissertation-zur-forschung}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.617 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation31}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.617 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.31}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.617 \end{frame}
-                 
-
 ]
-<Figures/FiguresEnrolment_over_time_new-1.pdf, id=610, 953.5625pt x 556.0775pt>
+<Figures/FiguresEnrolment_over_time_new-1.pdf, id=582, 953.5625pt x 556.0775pt>
 File: Figures/FiguresEnrolment_over_time_new-1.pdf Graphic file (type pdf)
 <use Figures/FiguresEnrolment_over_time_new-1.pdf>
-Package pdftex.def Info: Figures/FiguresEnrolment_over_time_new-1.pdf  used on input line 634.
+Package pdftex.def Info: Figures/FiguresEnrolment_over_time_new-1.pdf  used on input line 633.
 (pdftex.def)             Requested size: 307.28511pt x 179.19574pt.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 634.
+Package pdftex.def Info: UB_logo.jpg  used on input line 633.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [33
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation32}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.634 \end{frame}
+ <./Figures/FiguresEnrolment_over_time_new-1.pdf>]
+pdfTeX warning (ext4): destination with the same identifier (name{einstieg-1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.633 \end{frame}
                  
-pdfTeX warning (ext4): destination with the same identifier (name{page.32}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.634 \end{frame}
-                 
-
-]
 File: Figures/FiguresEnrolment_over_time_new-1.pdf Graphic file (type pdf)
 <use Figures/FiguresEnrolment_over_time_new-1.pdf>
-Package pdftex.def Info: Figures/FiguresEnrolment_over_time_new-1.pdf  used on input line 634.
+Package pdftex.def Info: Figures/FiguresEnrolment_over_time_new-1.pdf  used on input line 633.
 (pdftex.def)             Requested size: 307.28511pt x 179.19574pt.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 634.
+Package pdftex.def Info: UB_logo.jpg  used on input line 633.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [34
 
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation33}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.634 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.33}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.634 \end{frame}
-                 
-
- <./Figures/FiguresEnrolment_over_time_new-1.pdf>]
+]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 708.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 707.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 708.
+Package pdftex.def Info: UB_logo.jpg  used on input line 707.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [35
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{einstieg-1}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.708 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation34}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.708 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.34}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.708 \end{frame}
-                 
 
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 708.
+Package pdftex.def Info: UB_logo.jpg  used on input line 707.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [36
 
 
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation35}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.708 \end{frame}
-                 
-pdfTeX warning (ext4): destination with the same identifier (name{page.35}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.708 \end{frame}
-                 
-
 ]
 \tf@nav=\write6
-\openout6 = `Presentation.nav'.
+\openout6 = `Presentation_nonotes.nav'.
 
 \tf@toc=\write7
-\openout7 = `Presentation.toc'.
+\openout7 = `Presentation_nonotes.toc'.
 
 \tf@snm=\write8
-\openout8 = `Presentation.snm'.
+\openout8 = `Presentation_nonotes.snm'.
 
-[37
-
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{Navigation36}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.710 \end{document}
-                    
-pdfTeX warning (ext4): destination with the same identifier (name{page.36}) has been already used, duplicate ignored
-
-\pgfpages@shipoutshipoutbox ...physicalpagesizes }
-                                                  \endgroup 
-l.710 \end{document}
-                    
-
-] (./Presentation.aux)
-Package rerunfilecheck Info: File `Presentation.out' has not changed.
+(./Presentation_nonotes.aux)
+Package rerunfilecheck Info: File `Presentation_nonotes.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 28872 strings out of 480173
- 580308 string characters out of 5890496
- 896269 words of memory out of 5000000
- 45995 multiletter control sequences out of 15000+600000
- 537179 words of font info for 149 fonts, out of 8000000 for 9000
+ 28704 strings out of 480173
+ 577402 string characters out of 5890496
+ 875093 words of memory out of 5000000
+ 45896 multiletter control sequences out of 15000+600000
+ 527545 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,23n,112p,1009b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}<y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss12.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss9.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso12.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Presentation.pdf (36 pages, 3537999 bytes).
+ 99i,23n,112p,1017b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}<y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss12.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso12.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
+Output written on Presentation_nonotes.pdf (36 pages, 3475893 bytes).
 PDF statistics:
- 776 PDF objects out of 1000 (max. 8388607)
- 502 compressed objects within 6 object streams
+ 722 PDF objects out of 1000 (max. 8388607)
+ 452 compressed objects within 5 object streams
  111 named destinations out of 1000 (max. 500000)
- 44196 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 36004 words of extra memory for PDF output out of 42996 (max. 10000000)
 
