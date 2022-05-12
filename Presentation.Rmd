@@ -11,6 +11,7 @@ output:
     slide_level: 2
 header-includes:
   - \AtBeginEnvironment{CSLReferences}{\tiny} # small font size in references section
+  - \setbeameroption{show notes on second screen}
 ---
 
 ```{r setup, include=FALSE}
@@ -22,32 +23,44 @@ knitr::opts_chunk$set(echo = FALSE)
 ---
 nocite: |
     @Thelen.2004,
-    @Streeck.2005
+    @Streeck.2005,
     @Mahoney.2010b,
-    @Gerring.2007
+    @Gerring.2007,
+    @Ansell.2008b,
+    @garritzmann2016,
+    @busemeyer2009,
+    @Garritzmann.2015b,
+    @Boix.1997,
+    @Rauh.2011b,
+    @Bell.2015,
+    @Shor.2007
+    
 ---
 
 
-## Einstieg 
+## Einstieg
 
-```{r, fig.cap = "Enrolment in Secondary and Higher Education, Developed Countries, 1950-2010",echo = F,warning = F, message = F}
-
-knitr::include_graphics("Figures/FiguresEnrolment_over_time_new-1.pdf")
-
-```
-\pause
+**Kumulative Dissertation**, auf Englisch verfasst und bestehend Introduction und drei Einzelarbeiten in alleiniger Autorenschaft:
 
 \begin{itemize}
-\item{Genereller Trend zur Expansion}
-\item{Hochschulbildung: Bemerkenswerte Varianz zwischen einzelnen Ländern (nicht nur in Bezug auf Enrolment)}
+\item{\textit{The Trilemma of Higher Education and Equality of Opportunity: Social Background, Access to Higher Education and the Moderating Impact of Enrolment and Public Subsidization}}
+\item{\textit{Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?}}
+\item{\textit{The Role of Parties in the Distributive Politics of Higher Education}}
 \end{itemize}
 
-## Einstieg 
 
-Higher Education is special!
+\note{
+\scriptsize
+LANGSAM
+Bevor es inhaltlich los geht, ein paar Worte zu meiner Dissertation.
+Kumulativ, bestehend aus einem Intro-Kapitel und drei Einzelarbeiten, die hier einmal aufgelistet sind (und die natürlich auch gleich sukkzessive vorgestellt werden).
+Auf Englisch verfasst, was hier kurz erwähnt werden soll weil die Verteidigung selbst ja auf Deutsch ist. Manchmal gar nicht so leicht, Begriffe zurück zu übersetzen, deswegen könnte es ein bisschen Denglisch werden
+}
+
+
+## Konzeptioneller Rahmen
 
 \pause
-
 \begin{alertblock}{Leitfragen}
 \begin{itemize}[<+->]
 \item{Wie können Hochschulsysteme möglichst ganzheitlich konzeptualisiert werden?}
@@ -62,17 +75,67 @@ Higher Education is special!
 \end{itemize}
 \end{alertblock}
 
-## Einstieg
+\note{
+\tiny
+Worum geht es in meiner Diss? Wie der Titel unschwer erkennen lässt, geht es um die politische Ökonomie der Hochschulbildung. Aber was heißt das?
 
-**Kumulative Dissertation**, auf Englisch verfasst und bestehend Introduction und drei Einzelarbeiten in alleiniger Autorenschaft:
+KLICK 
 
+Ich habe hier mal ein paar Leitfragen notiert, die allesamt zum Erkenntnisinteresse meiner Arbeit gehörten
+
+KLICK
 \begin{itemize}
-\item{\textit{The Trilemma of Higher Education and Equality of Opportunity: Social Background, Access to Higher Education and the Moderating Impact of Enrolment and Public Subsidization}}
-\item{\textit{Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?}}
-\item{\textit{The Role of Parties in the Distributive Politics of Higher Education}}
+\tiny
+\item{Welche Indikatoren oder Variablen eignen sich dazu, Hochschulsysteme international vergleichend zu beschreiben und ihre Entwicklung nachzuvollziehen? Mein Ziel war es, hier auch vor dem Hintergrund der bestehenden Literatur zum Thema eine möglichst ganzheitliche Konzeption zu haben und nicht im (vielleicht berechtigten Interesse) an parsimonischen Erklärungen auf einzelne Faktoren zu reduzieren}
+KLICK
+\item{Auf Grundlage dieser Konzeptualisation: Wie stark unterscheiden sich die Systeme? Wie ausgeprägt ist die Varianz zwischen den Ländern und vor allem auch über die Zeit? Heute ist leider nicht die Zeit diese Frage im Detail zu beantworten, aber diese quer- und längsschnittliche Varianz in Hochschulsystemen ist im Vergleich mit anderen Politikfeldern oder auch im Vergleich mit anderen Feldern innerhalb der Bildungspolitik (z.B. sekundäre Bildung) aus meiner Sicht enorm, was aus wissenschaftlicher Zeit natürlich erfreulich ist, weil wohl viel Varianz ist kann auch viel erklärt werden}
+KLICK
+\item{Was sind die redistributiven Implikationen von Hochschulbildung? Was bedeutet das? Wie sind die Kosten, aber vor allem der Nutzen von Hochschulbildung auf unterschiedliche gesellschaftliche Gruppen verteilt? Wer profitiert vom System? Das, was Hochschulbildung vor allem besonders und interessant als Forschungsobjekt macht: Der Zugang ist im Gegensatz zB zu sekundärer Bildung überall stark stratifiziert, d.h. privilegierte Bevölkerungsgruppen haben einen systematischen Vorteil. Und diese Erkenntnis wiederum ist sehr wichtig, um ableiten zu können, welche Gruppen und Parteien ein Interesse an welcher Art von Politikwandel haben könnten}
+KLICK
+\item{Und zuletzt die politikwissenschaftlichste aller politikwissenschaftlichen Fragestellungen: wie können wir Unterschiede sowohl zwischen Ländern als auch innerhalb von Ländern über die Zeit erklären? Unterschiedliche Erklärungsansätze}
 \end{itemize}
+}
+
+## Konzeptioneller Rahmen
+
+**Argument:** Das institutionelle Design von Hochschulsystemen kann mittels vier Komponenten beschrieben werden
+
+- **Studierendenquote** (*Enrolment*)
+- Soziale Ungleichheit beim Hochschulzugang (*Inequality of Access*)
+- Finanzierungsmechanismen (*Finance Mechanisms*)
+- Qualität (*Quality*)
 
 
+\note{
+\scriptsize
+Mein Argument ist, dass Hochschulsysteme insgesamt mit vier Konzepten beschrieben werden
+\begin{itemize}
+\scriptsize
+\item{Das erste ist ganz klassisch und auch in der Literatur etabliert die Studierendenquote, d.h. der Anteil der jungen Erwachsenen in einem Land, der ein Studium aufnimmt. Hier gibt es sehr große Unterschiede zwischen den Ländern (50\% Schweiz, fast 95\% Finnland). Man kann sich natürlich vorstellen, dass die Größe des Hochschulsektors eine wichtige Rolle spielt (zum Beispiel in Bezug darauf, wie viele finanzielle Ressourcen für das System aufgewendet werden müssen). Und: Die Studierendenquote spielt als solches dann eine wichtige Rolle als Stein des Anstoßes von Politikwandel. Um es kurz zu machen: Unterschiedlich ausgeprägter, aber doch konvergenter Trend zu Expansion stellt Entscheidungsträger zum Beispiel vor die Wahl, Expansion mit öffentlichen Steuermitteln zu finanzieren oder aber Studiengebühren zu erheben}
+\end{itemize}
+}
+
+## Konzeptioneller Rahmen
+
+**Argument:** Das institutionelle Design von Hochschulsystemen kann mittels vier Komponenten beschrieben werden
+
+- Studierendenquote (*Enrolment*)
+- **Soziale Ungleichheit beim Hochschulzugang** (*Inequality of Access*)
+- Finanzierungsmechanismen (*Finance Mechanisms*)
+- Qualität (*Quality*)
+
+\note{
+\scriptsize
+LANGSAM
+Zweitens gehört für mich das Ungleichheitslevel im Bezug auf den Zugang zur Beschreibung von Hochschulsystem. 
+\begin{itemize}
+\scriptsize
+\item{Tatsache, dass Zugang zu Hochschulbildung sozial stratifiziert ist, ist bereits angeklungen}
+\item{Bestehende Literatur erkennt das auch an, setzt aber Ungleichheit vor dem Hintergrund fehlender Daten zu Ungleichheit häufig gleich mit der Studierendenquote}
+\item{Annahme: Steigende Studierendenquote sorgt für linear abnehmende Ungleichheiten. Das ist falsch, denn die relativen Zugewinne einzelner sozialen Klassen sind sehr ungleich verteilt}
+\item{Eigenes Modell (eine der größten Beiträge zur Forschung meiner Diss aus meiner Sicht) suggeriert eindeutig, das die Studierendenquote und das Ungleichheitslevel zwar miteinander korrelieren, aber der Zusammenhang ist alles andere als perfekt. Einige Länder haben wenig Ungleichheit trotz niedriger Studierendenquote und andersherum}
+\end{itemize}
+}
 
 ## Konzeptioneller Rahmen
 
@@ -80,91 +143,23 @@ Higher Education is special!
 
 - Studierendenquote (*Enrolment*)
 - Soziale Ungleichheit beim Hochschulzugang (*Inequality of Access*)
-- Finanzierungsmechanismen (*Finance Mechanisms*)
+- **Finanzierungsmechanismen** (*Finance Mechanisms*)
+  - Ausgaben für Hochschulen (öffentlich vs. privat)
+  - Ausgaben für Subventionen für Studierende
 - Qualität (*Quality*)
 \pause
-
 $\rightarrow$ Kombination aus Komponenten bestimmt distributive Implikationen von Hochschulbildung, Feedback-Effekte und Handlungsspielräume für Politikwandel
 
-## Konzeptioneller Rahmen: *Studierendenquote / Soziale Ungleichheit beim Hochschulzugang*
-\footnotesize
-\pause
-- Alleinstellungsmerkmal Hochschulbildung: Zugang ist stark nach sozialer Herkunft stratifiziert
-- Literatur setzt beide Konzepte gleich, keine vergleichenden Daten zu Ungleichheit verfügbar
-- Eigenes Modell zeigt imperfekten Zusammenhang:
-\pause
-```{r, fig.cap = "Zusammenhang zwischen Studierendenquote und sozialer Ungleichheit beim Zugang zu Hochschulbildung",echo = F,warning = F, message = F, , out.height= "5cm"}
-knitr::include_graphics("Figures/Intro/Enrolment_vs_Inequality-1.pdf")
-```
-
-## Konzeptioneller Rahmen: *Finanzierungsmechanismen*
-
-**Zwei Differenzierungen notwendig** (Ansell 2008, Garritzmann 2016):
-- Ausgaben für i) Hochschulen, ii) Subventionen für Studierende
-- Finanzierung der Hochschulen: Öffentlich vs. privat
-
-```{r, fig.cap = "Ausgaben für Hochschulen, aus öffentlichen und privaten Quellen und in Prozent des GDP, 2016",echo = F,warning = F, message = F, , out.height= "5cm"}
-knitr::include_graphics("Figures/Intro/Spending_on_HEIs-1.pdf")
-```
-
-
-## Konzeptioneller Rahmen: *Finanzierungsmechanismen*
-
-**Zwei Differenzierungen notwendig** (Ansell 2008, Garritzmann 2016):
-- Ausgaben für i) Hochschulen, ii) Subventionen für Studierende
-- Finanzierung der Hochschulen: Öffentlich vs. privat
-
-```{r, fig.cap = "Zusammenhang zwischen Studierendenquote und Ausgaben für Hochschulen (kombiniert)",echo = F,warning = F, message = F, , out.height= "5cm"}
-knitr::include_graphics("Figures/Intro/Tradeoff_Spending_Enrolment-1.pdf")
-```
-
-## Konzeptioneller Rahmen: *Finanzierungsmechanismen*
-
-**Zwei Differenzierungen notwendig** (Ansell 2008, Garritzmann 2016):
-- Ausgaben für i) Hochschulen, ii) Subventionen für Studierende
-- Finanzierung der Hochschulen: Öffentlich vs. privat
-
-```{r, fig.cap = "Ausgaben für Subventionen, Durchschnitt 1997-2016",echo = F,warning = F, message = F, , out.height= "5cm"}
-knitr::include_graphics("Figures/Intro/Subsidies-1.pdf")
-```
-
-## Konzeptioneller Rahmen: *Finanzierungsmechanismen*
-
-**Zwei Differenzierungen notwendig** (Ansell 2008, Garritzmann 2016):
-- Ausgaben für i) Hochschulen, ii) Subventionen für Studierende
-- Finanzierung der Hochschulen: Öffentlich vs. privat
-
-```{r, fig.cap = "Zusammenhang zwischen Ausgaben für Subventionen und Ungleichheit im Zugang zu Hochschulbildung",echo = F,warning = F, message = F, , out.height= "5cm"}
-knitr::include_graphics("Figures/Intro/Subsidies2-1.pdf")
-```
-
-## Konzeptioneller Rahmen: *Qualität*
-
-- Studierendenquote ist Treiber für Hochschulausgaben insgesamt, reduziert aber gleichzeitig die Ausgaben pro Kopf
-- $Qualität = \frac{Ausgaben\:Hochschulen}{Studierendenquote}$
-- Hohe Qualität kann nur bei Inkaufnahme von Trade-Offs erzielt werden
-```{r, fig.cap = "Entwicklung der Qualität der Hochschulbildung 1997-2016",echo = F,warning = F, message = F, , out.height= "5cm"}
-knitr::include_graphics("Figures/Intro/Quality-1.pdf")
-```
-
-## Konzeptioneller Rahmen: *Qualität*
-
-- Studierendenquote ist Treiber für Hochschulausgaben insgesamt, reduziert aber gleichzeitig die Ausgaben pro Kopf
-- $Qualität = \frac{Ausgaben\:Hochschulen}{Studierendenquote}$
-- Hohe Qualität kann nur bei Inkaufnahme von Trade-Offs erzielt werden
-```{r, fig.cap = "Profil der Länder mit steigender Qualität der Hochschulbildung",echo = F,warning = F, message = F, , out.height= "5cm"}
-knitr::include_graphics("Figures/Intro/Decreasing_Quality-1.pdf")
-```
 
 ## Konzeptioneller Rahmen: *Zusammenfassung*
 
-```{r, fig.cap = "Modell des Hochschulsystems und Wechselwirkungen",echo = F,warning = F, message = F}
+```{r, fig.cap = "Modell des Hochschulsystems und Wechselwirkungen",echo = F,warning = F, message = F, out.height= "7cm"}
 knitr::include_graphics("Figures/conceptual.frame.drawio.pdf")
 ```
 
 ## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Forschungsdesign)
 
-
+\pause
 \begin{block}{Forschungsfrage}
 \scriptsize
 Wie strukturiert das institutionelle Design des Hochschulsystems den Zugang zu universitärer Bildung? Mindert oder verstärkt es Effekte sozialer Herkunft?
@@ -200,7 +195,7 @@ Wie strukturiert das institutionelle Design des Hochschulsystems den Zugang zu u
 Wahrscheinlichkeit, ein Studium aufzunehmen
 \scriptsize 
 $logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} + \cdots + \zeta_{j} + \epsilon_{ij}$
-```{r, fig.cap = "Geschätzte Randmittel, Fixed Effect von elterlicher Bildung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, , out.height= "5cm"}
+```{r, fig.cap = "Geschätzte Randmittel, Fixed Effect von elterlicher Bildung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, out.height= "5cm"}
 knitr::include_graphics("Figures/01_Inequality/Figure 4.jpg")
 ```
 
@@ -216,7 +211,7 @@ knitr::include_graphics("Figures/01_Inequality/Figure 3.jpg")
 **H3:** Die Effektstärke der elterlichen Bildung auf die Studiumswahrscheinlichkeit wird (auch) vom institutionellen Design des Hochschulsystems (*Enrolment*, *Public Subsidization*) beeinflusst
 \scriptsize 
 $logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} *\beta_{3}Enrolment\: /\: Public\:Subsidization_{j} + \cdots + \zeta_{j} + \epsilon_{i}$
-```{r,echo = F,warning = F, message = F, , out.height= "5cm", fig.cap = ""}
+```{r,echo = F,warning = F, message = F, , out.height= "4cm", fig.cap = ""}
 knitr::include_graphics("Figures/01_Inequality/RegTablet.JPG")
 ```
 
@@ -224,12 +219,12 @@ knitr::include_graphics("Figures/01_Inequality/RegTablet.JPG")
 **H3:** Die Effektstärke der elterlichen Bildung auf die Studiumswahrscheinlichkeit wird (auch) vom institutionellen Design des Hochschulsystems (*Enrolment*, *Public Subsidization*) beeinflusst
 \scriptsize 
 $logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} *\beta_{3}Enrolment\: /\: Public\:Subsidization_{j} + \cdots + \zeta_{j} + \epsilon_{i}$
-```{r, fig.cap = "Cross-Level Interaktionseffekt von elterlicher Bildung und öffentlicher Bezuschussung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, , out.height= "5cm"}
+```{r, fig.cap = "Cross-Level Interaktionseffekt von elterlicher Bildung und öffentlicher Bezuschussung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, , out.height= "4cm"}
 knitr::include_graphics("Figures/01_Inequality/Figure5.JPG")
 ```
 
 ## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Zusammenfassung)
-
+\scriptsize
 - Länderübergreifend starker Einfluss von sozialem Hintergrund auf Studiumswahrscheinlichkeit
 \pause
 - Effektstärke variiert erheblich zwischen den Ländern
@@ -237,7 +232,7 @@ knitr::include_graphics("Figures/01_Inequality/Figure5.JPG")
 - Teil der Varianz zwischen den Ländern kann mit dem Level öffentlicher Bezuschussung erklärt werden: Je generöser studentischer Subventionen sind, desto geringer fällt der Einfluss des sozialen Hintergrunds auf die Studiumswahrscheinlichkeit aus. Kein Effekt der Studierendenquote.
 \pause
 - Empirische Implikation: Trend zur Expansion des Hochschulsystems auf Kosten der Generösität der Subventionen könnte sich negativ auf sozialen Gradient auswirken
-```{r, fig.cap = "Entwicklung der Hochschulsysteme, Veränderung 2002-2010",echo = F,warning = F, message = F, , out.height= "5cm"}
+```{r, fig.cap = "Entwicklung der Hochschulsysteme, Veränderung 2002-2010",echo = F,warning = F, message = F, , out.height= "4.5cm"}
 knitr::include_graphics("Figures/01_Inequality/Figure2.JPG")
 ```
 
@@ -395,7 +390,7 @@ knitr::include_graphics("Figures/01_Inequality/Figure2.JPG")
 \scriptsize
 \item{AVs: Öffentliche Ausgaben für Subventionen (i) und Hochschulen (ii), private Ausgaben für Hochschulen (iii), Qualität des Hochschulsystems (iv)}
 \item{Zentrale UVs: Parteipolitische Zusammensetzung der Regierung (unterschiedliche Operationalisierungen), Studierendenquote und Ungleichheitslevel als Proxies für soziale Stratifikation}
-\item{Schätzstrategie: Hierarchische lineare Regression mit Random Intercepts und gruppenspezifische Mittelwertszentrierung (Bell \& Jones 2015, Shor et al. 2007)
+\item{Schätzstrategie: Hierarchische lineare Regression mit Random Intercepts und gruppenspezifischer Mittelwertszentrierung (Bell \& Jones 2015, Shor et al. 2007)
 \newline
 $$y_{it} =  \beta_0 + \beta_{within}(x_{it} - \bar{x}_i) + 
 \beta_{between}\bar{x}_i + \zeta_i + \epsilon_{it}$$
@@ -404,13 +399,11 @@ $$y_{it} =  \beta_0 + \beta_{within}(x_{it} - \bar{x}_i) +
 \end{itemize}
 \end{alertblock}
 
-## Paper #3: *The Role of Parties in the Distributive Politics of Higher Education* (Ergebnisse)
-
 
 ## Paper #3: *The Role of Parties in the Distributive Politics of Higher Education* (Zusammenfassung)
 
 \begin{itemize}
-\item(Moderate Hinweise auf systematischen Einfluss parteipolitischer Präferenzen)
+\item{Moderate Hinweise auf systematischen Einfluss parteipolitischer Präferenzen}
 \begin{itemize}
 \item{\textbf{Ausgaben für Subventionen:} Linke Parteien erhöhen, rechte Parteien reduzieren Ausgaben (Effekt stabil wenn UK exkludiert)}
 \item{\textbf{Öffentliche Ausgaben für Hochschulen:} Nur between-Effekte (höhere Ausgaben, wenn rechte Parteien langfristig dominant)}
@@ -425,7 +418,35 @@ $$y_{it} =  \beta_0 + \beta_{within}(x_{it} - \bar{x}_i) +
 
 - Ungleichheit im Zugang zu Hochschulbildung im Zentrum der Analyse
   - Längs- und querschnittliche Effekte empirisch modelliert
-  - 
+  - Aber: Nur europäische Staaten
+  
+- Y-Zentrierter Ansatz anstatt parsimonischer Erklärung
+
+- Konzeptualisierung negativer Feedback-Effekte
 
 
 ## Referenzen {.allowframebreaks}
+
+## 
+
+Vielen Dank für die Aufmerksamkeit!
+
+## Einstieg 
+```{r, fig.cap = "Enrolment in Secondary and Higher Education, Developed Countries, 1950-2010",echo = F,warning = F, message = F}
+
+knitr::include_graphics("Figures/FiguresEnrolment_over_time_new-1.pdf")
+
+```
+\pause
+
+Higher Education is special!
+
+\note{
+Einstieg über Blick auf empirisches Phänomen
+
+Grafik zeigt über die Zeit (1950-2015) die Quote der Personen einer Altersgruppe, die an sekundärer Bildung (links) beziehungsweise Hochschulbildung (rechts) teilnehmen, für entwickelte Industrienationen. Zwei Länder der üblichen Ländercluster (Englisch-sprachig, Nordisch, Deutsch-sprachig) sind jeweils eingefärbt
+
+Was wir sehen: In beiden Fällen im Laufe des 20. Jahrhunderts erhebliche Expansion. Sekundäre Bildung ist heute universell, bei Hochschulbildung aber gibt es große Unterschiede zwischen den Ländern (Range in der Studierendenquote von gerade über 50\% in der Schweiz bis fast 95\% in Finnland)
+
+Was das zeigen soll: Große Variation beim Design von Hochschulsystemen (wie wir gleich sehen werden nicht nur im Hinblick auf die Studierendenquote). Zeigt, dass Hochschulbildung ein besonderes Politikfeld ist. Aus wissenschaftlicher Sicht super, denn da wo viel Varianz ist, ist auch viel zu erklären.
+}
