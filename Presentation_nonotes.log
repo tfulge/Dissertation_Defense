@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  12 MAY 2022 21:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.4.19)  13 MAY 2022 08:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -980,14 +980,14 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 342.
 
  <./Figures/conceptual.frame.drawio.pdf>]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 377.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 405.
 
-Overfull \vbox (2.93439pt too high) detected at line 377
+Overfull \vbox (2.93439pt too high) detected at line 405
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 377.
+Package pdftex.def Info: UB_logo.jpg  used on input line 405.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [14
 
@@ -995,14 +995,14 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 377.
 pdfTeX warning (ext4): destination with the same identifier (name{paper-1-the-trilemma-of-higher-education-and-equality-of-opportunity-forschungsdesign}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.377 \end{frame}
+l.405 \end{frame}
                  
-Overfull \vbox (2.93439pt too high) detected at line 377
+Overfull \vbox (2.93439pt too high) detected at line 405
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 377.
+Package pdftex.def Info: UB_logo.jpg  used on input line 405.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [15
 
@@ -1010,14 +1010,14 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 377.
 pdfTeX warning (ext4): destination with the same identifier (name{paper-1-the-trilemma-of-higher-education-and-equality-of-opportunity-forschungsdesign}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.377 \end{frame}
+l.405 \end{frame}
                  
-Overfull \vbox (2.93439pt too high) detected at line 377
+Overfull \vbox (2.93439pt too high) detected at line 405
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 377.
+Package pdftex.def Info: UB_logo.jpg  used on input line 405.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [16
 
@@ -1025,30 +1025,44 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 377.
 pdfTeX warning (ext4): destination with the same identifier (name{paper-1-the-trilemma-of-higher-education-and-equality-of-opportunity-forschungsdesign}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.377 \end{frame}
+l.405 \end{frame}
                  
-Overfull \vbox (2.93439pt too high) detected at line 377
+Overfull \vbox (2.93439pt too high) detected at line 405
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 377.
+Package pdftex.def Info: UB_logo.jpg  used on input line 405.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [17
 
 ]
+Overfull \hbox (4.74155pt too wide) detected at line 423
+\OML/lmm/m/it/8 logit\OMS/lmsy/m/n/8 f\OML/lmm/m/it/8 Pr\OT1/lmr/m/n/8 (\OML/lmm/m/it/8 Student[] \OT1/lmr/m/n/8 = 1\OMS/lmsy/m/n/8 j\OML/lmm/m/it/8 ; x[]\OMS/lmsy/m/n/8 j\OML/lmm/m/it/8 ; ^^P[]\OT1/lmr/m/n/8 )\OMS/lmsy/m/n/8 g \OT1/lmr/m/n/8 = \OML/lmm/m/it/8 ^^L[] \OT1/lmr/m/n/8 + \OML/lmm/m/it/8 ^^L[]Parental Education[] \OT1/lmr/m/n/8 + [] + \OML/lmm/m/it/8 ^^P[] \OT1/lmr/m/n/8 + \OML/lmm/m/it/8 ^^O[]
+ []
+
 <Figures/01_Inequality/Figure 4.jpg, id=336, 4015.0pt x 2919.90875pt>
 File: Figures/01_Inequality/Figure 4.jpg Graphic file (type jpg)
 <use Figures/01_Inequality/Figure 4.jpg>
-Package pdftex.def Info: Figures/01_Inequality/Figure 4.jpg  used on input line 389.
+Package pdftex.def Info: Figures/01_Inequality/Figure 4.jpg  used on input line 423.
 (pdftex.def)             Requested size: 195.61559pt x 142.26144pt.
 
-Overfull \vbox (6.38373pt too high) detected at line 389
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 423--423
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 423--423
+
+ []
+
+
+Overfull \vbox (15.13371pt too high) detected at line 423
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 389.
+Package pdftex.def Info: UB_logo.jpg  used on input line 423.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [18
 
@@ -1056,65 +1070,62 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 389.
 <Figures/01_Inequality/Figure 3.jpg, id=345, 4015.0pt x 2919.90875pt>
 File: Figures/01_Inequality/Figure 3.jpg Graphic file (type jpg)
 <use Figures/01_Inequality/Figure 3.jpg>
-Package pdftex.def Info: Figures/01_Inequality/Figure 3.jpg  used on input line 409.
+Package pdftex.def Info: Figures/01_Inequality/Figure 3.jpg  used on input line 443.
 (pdftex.def)             Requested size: 195.61559pt x 142.26144pt.
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 409--409
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 443--443
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 409--409
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
 
  []
 
 
-Overfull \vbox (11.08376pt too high) detected at line 409
+Overfull \vbox (11.08376pt too high) detected at line 443
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 409.
+Package pdftex.def Info: UB_logo.jpg  used on input line 443.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [19
 
  <./Figures/01_Inequality/Figure 3.jpg>]
-Overfull \hbox (141.65082pt too wide) detected at line 434
+Overfull \hbox (141.65082pt too wide) detected at line 468
 \OML/lmm/m/it/8 logit\OMS/lmsy/m/n/8 f\OML/lmm/m/it/8 Pr\OT1/lmr/m/n/8 (\OML/lmm/m/it/8 Student[] \OT1/lmr/m/n/8 = 1\OMS/lmsy/m/n/8 j\OML/lmm/m/it/8 ; x[]\OMS/lmsy/m/n/8 j\OML/lmm/m/it/8 ; ^^P[]\OT1/lmr/m/n/8 )\OMS/lmsy/m/n/8 g \OT1/lmr/m/n/8 = \OML/lmm/m/it/8 ^^L[] \OT1/lmr/m/n/8 + \OML/lmm/m/it/8 ^^L[]Parental Education[] \OMS/lmsy/m/n/8 ^^C \OML/lmm/m/it/8 ^^L[]Enrolment = Public Subsidization[] \OT1/lmr/m/n/8 + [] + \OML/lmm/m/it/8 ^^P[] \OT1/lmr/m/n/8 + \OML/lmm/m/it/8 ^^O[]
  []
 
 <Figures/01_Inequality/Figure5.jpg, id=354, 4015.0pt x 2919.90875pt>
 File: Figures/01_Inequality/Figure5.jpg Graphic file (type jpg)
 <use Figures/01_Inequality/Figure5.jpg>
-Package pdftex.def Info: Figures/01_Inequality/Figure5.jpg  used on input line 434.
+Package pdftex.def Info: Figures/01_Inequality/Figure5.jpg  used on input line 468.
 (pdftex.def)             Requested size: 156.46797pt x 113.79132pt.
 
-Overfull \hbox (21.90005pt too wide) in paragraph at lines 434--434
+Overfull \hbox (21.90005pt too wide) in paragraph at lines 468--468
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--434
+Underfull \hbox (badness 10000) in paragraph at lines 468--468
 
  []
 
 
-Overfull \vbox (34.16359pt too high) detected at line 434
+Overfull \vbox (34.16359pt too high) detected at line 468
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 434.
+Package pdftex.def Info: UB_logo.jpg  used on input line 468.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [20
 
  <./Figures/01_Inequality/Figure5.jpg>]
-Overfull \vbox (5.54532pt too high) detected at line 476
- []
-
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 476.
+Package pdftex.def Info: UB_logo.jpg  used on input line 509.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [21
 
@@ -1122,14 +1133,11 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 476.
 pdfTeX warning (ext4): destination with the same identifier (name{paper-2-explaining-institutional-change-in-uk-higher-education-towards-a-partisan-theory-forschungsdesign}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.476 \end{frame}
+l.509 \end{frame}
                  
-Overfull \vbox (5.54532pt too high) detected at line 476
- []
-
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 476.
+Package pdftex.def Info: UB_logo.jpg  used on input line 509.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [22
 
@@ -1137,38 +1145,35 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 476.
 pdfTeX warning (ext4): destination with the same identifier (name{paper-2-explaining-institutional-change-in-uk-higher-education-towards-a-partisan-theory-forschungsdesign}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.476 \end{frame}
+l.509 \end{frame}
                  
-Overfull \vbox (5.54532pt too high) detected at line 476
- []
-
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 476.
+Package pdftex.def Info: UB_logo.jpg  used on input line 509.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [23
 
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 495.
+Package pdftex.def Info: UB_logo.jpg  used on input line 528.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [24
 
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 520.
+Package pdftex.def Info: UB_logo.jpg  used on input line 553.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [25
 
 ]
-Overfull \vbox (4.80011pt too high) detected at line 552
+Overfull \vbox (4.80011pt too high) detected at line 585
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 552.
+Package pdftex.def Info: UB_logo.jpg  used on input line 585.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [26
 
@@ -1176,35 +1181,35 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 552.
 pdfTeX warning (ext4): destination with the same identifier (name{paper-3-the-role-of-parties-in-the-distributive-politics-of-higher-education-forschungsdesign}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.552 \end{frame}
+l.585 \end{frame}
                  
-Overfull \vbox (4.80011pt too high) detected at line 552
+Overfull \vbox (4.80011pt too high) detected at line 585
  []
 
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 552.
+Package pdftex.def Info: UB_logo.jpg  used on input line 585.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [27
 
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 570.
+Package pdftex.def Info: UB_logo.jpg  used on input line 603.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [28
 
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 586.
+Package pdftex.def Info: UB_logo.jpg  used on input line 634.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [29
 
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 608.
+Package pdftex.def Info: UB_logo.jpg  used on input line 656.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [30
 
@@ -1212,18 +1217,18 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 608.
 pdfTeX warning (ext4): destination with the same identifier (name{beitruxe4ge-der-dissertation-zur-forschung}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.608 \end{frame}
+l.656 \end{frame}
                  
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 608.
+Package pdftex.def Info: UB_logo.jpg  used on input line 656.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [31
 
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 616.
+Package pdftex.def Info: UB_logo.jpg  used on input line 664.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [32
 
@@ -1231,11 +1236,11 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 616.
 <Figures/FiguresEnrolment_over_time_new-1.pdf, id=582, 953.5625pt x 556.0775pt>
 File: Figures/FiguresEnrolment_over_time_new-1.pdf Graphic file (type pdf)
 <use Figures/FiguresEnrolment_over_time_new-1.pdf>
-Package pdftex.def Info: Figures/FiguresEnrolment_over_time_new-1.pdf  used on input line 633.
+Package pdftex.def Info: Figures/FiguresEnrolment_over_time_new-1.pdf  used on input line 681.
 (pdftex.def)             Requested size: 307.28511pt x 179.19574pt.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 633.
+Package pdftex.def Info: UB_logo.jpg  used on input line 681.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [33
 
@@ -1243,31 +1248,31 @@ Package pdftex.def Info: UB_logo.jpg  used on input line 633.
 pdfTeX warning (ext4): destination with the same identifier (name{einstieg-1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.633 \end{frame}
+l.681 \end{frame}
                  
 File: Figures/FiguresEnrolment_over_time_new-1.pdf Graphic file (type pdf)
 <use Figures/FiguresEnrolment_over_time_new-1.pdf>
-Package pdftex.def Info: Figures/FiguresEnrolment_over_time_new-1.pdf  used on input line 633.
+Package pdftex.def Info: Figures/FiguresEnrolment_over_time_new-1.pdf  used on input line 681.
 (pdftex.def)             Requested size: 307.28511pt x 179.19574pt.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 633.
+Package pdftex.def Info: UB_logo.jpg  used on input line 681.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [34
 
 ]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 707.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 755.
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 707.
+Package pdftex.def Info: UB_logo.jpg  used on input line 755.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [35
 
 ]
 File: UB_logo.jpg Graphic file (type jpg)
 <use UB_logo.jpg>
-Package pdftex.def Info: UB_logo.jpg  used on input line 707.
+Package pdftex.def Info: UB_logo.jpg  used on input line 755.
 (pdftex.def)             Requested size: 59.98308pt x 10.54504pt.
 [36
 
@@ -1289,13 +1294,13 @@ Package rerunfilecheck Info: File `Presentation_nonotes.out' has not changed.
 Here is how much of TeX's memory you used:
  28704 strings out of 480173
  577402 string characters out of 5890496
- 875093 words of memory out of 5000000
+ 875077 words of memory out of 5000000
  45896 multiletter control sequences out of 15000+600000
  527545 words of font info for 113 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  99i,23n,112p,1017b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{y:/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}<y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi6.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss12.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmss8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso12.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsso8.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb><y:/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy8.pfb>
-Output written on Presentation_nonotes.pdf (36 pages, 3475893 bytes).
+Output written on Presentation_nonotes.pdf (36 pages, 3475729 bytes).
 PDF statistics:
  722 PDF objects out of 1000 (max. 8388607)
  452 compressed objects within 5 object streams

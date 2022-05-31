@@ -11,7 +11,7 @@ output:
     slide_level: 2
 header-includes:
   - \AtBeginEnvironment{CSLReferences}{\tiny} # small font size in references section
-  #- \setbeameroption{show notes on second screen}
+ # - \setbeameroption{show notes on second screen}
 ---
 
 ```{r setup, include=FALSE}
@@ -64,7 +64,7 @@ Kumulativ, bestehend aus einem Intro-Kapitel und drei Einzelarbeiten, die hier e
 \item{Wie können Hochschulsysteme möglichst ganzheitlich konzeptualisiert werden?}
 \item{Welche Varianz zeigt sich zwischen Ländern sowie über die Zeit?}
 \item{Welche (re)distributiven Implikationen haben unterschiedliche Designs von Hochschulsystemen?}
-\item{Wie können Unterschiede erklärt werden?}
+\item{Wie kann Politikwandel erklärt werden?}
 \end{itemize}
 \end{alertblock}
 
@@ -227,12 +227,42 @@ Wie strukturiert das institutionelle Design des Hochschulsystems den Zugang zu u
 \end{itemize}
 \end{alertblock}
 
+\note{
+\begin{block}{Forschungsfrage}
+\tiny
+Wie strukturiert das institutionelle Design des Hochschulsystems den Zugang zu universitärer Bildung? Mindert oder verstärkt es Effekte sozialer Herkunft?
+\end{block}
+
+\begin{exampleblock}{Theorie}
+\begin{itemize}
+\tiny
+\item{Ungleichheitsbezogene Bildungsforschung: Soziale Herkunft (hier = elterlicher Bildungsstand) sagt systematisch Erfolg im Bildungssystem voraus}
+\begin{itemize}
+\tiny
+\item{Kosten-Nutzen-Kalkulation: $P_{HE} = (p * U) - C_{HE}$}
+\end{itemize}
+\item{Politische Ökonomie der Hochschulbildung: Studierendenzahl (\textit{Enrolment}) und Level öffentlicher Bezuschussung (\textit{Public Subsidization}) könnte Kosten-Nutzen-Kalkulation beeinflussen}
+\end{itemize}
+\end{exampleblock}
+
+\begin{alertblock}{Daten \& Methode}
+\begin{itemize}
+\tiny
+\item{Zentrale Variablen: \textit{Student} (AV); \textit{Parental Education}, \textit{Enrolment}, \textit{Public Subsidization} (UVs)}
+\item{Daten: Gepoolte Wellen des European Social Survey (2002-2010), Makrodaten vom UNESCO Institute for Statistics (22 Länder, 16.278 Beobachtungen)}
+\item{Methode: Hierarchische logistische Regression mit Random Intercepts + Slopes}
+\end{itemize}
+\end{alertblock}
+}
+
 ## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Zusammenfassung)
 \scriptsize
+- Länderübergreifend starker Einfluss von sozialem Hintergrund auf Studiumswahrscheinlichkeit
 $$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} + \cdots + \zeta_{j} + \epsilon_{ij}$$
 ```{r, fig.cap = "Geschätzte Randmittel, Fixed Effect von elterlicher Bildung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, out.height= "5cm"}
 knitr::include_graphics("Figures/01_Inequality/Figure 4.jpg")
 ```
+
 
 ## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Zusammenfassung)
 \scriptsize
@@ -253,13 +283,13 @@ $$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parent
 knitr::include_graphics("Figures/01_Inequality/Figure5.JPG")
 ```
 
+
 ## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Forschungsdesign)
 
 
 \begin{block}{Forschungsfragen}
 \scriptsize
 \begin{itemize}
-\item{Wie kann das institutionelle Design von Hochschulsystemen beschrieben und über die Zeit nachgezeichnet werden?}
 \item{Mit welchen Hemmnissen und Zielkonflikten ist die Politik bei Reformbemühungen konfrontiert?}
 \item{Können generalisierbare parteipolitische Präferenzen zum Design von Hochschulsystemen identifiziert werden?}
 \end{itemize}
@@ -396,6 +426,21 @@ $$y_{it} =  \beta_0 + \beta_{within}(x_{it} - \bar{x}_i) +
 \item{\textbf{Kein} moderierender Effekt von Ungleichheit im Zugang}
 \item{Veränderungen stärker von strukturellen Faktoren (z.B. GDP, Deindustrialisierung) getrieben als von Parteipolitik}
 \end{itemize}
+
+\note{
+\scriptsize
+\begin{itemize}
+\item{Moderate Hinweise auf systematischen Einfluss parteipolitischer Präferenzen}
+\begin{itemize}
+\item{\textbf{Ausgaben für Subventionen:} Linke Parteien erhöhen, rechte Parteien reduzieren Ausgaben}
+\item{\textbf{Öffentliche Ausgaben für Hochschulen:} Nur between-Effekte (höhere Ausgaben, wenn rechte Parteien langfristig dominant)}
+\item{\textbf{Private Ausgaben für Hochschulen:} Linke Parteien reduzieren Ausgaben, rechte erhöhen sie (marginal signifikant)}
+\item{\textbf{Qualität:}Qualität steigt unter rechten Regierungen}
+\end{itemize}
+\item{\textbf{Kein} moderierender Effekt von Ungleichheit im Zugang}
+\item{Veränderungen stärker von strukturellen Faktoren (z.B. GDP, Deindustrialisierung) getrieben als von Parteipolitik}
+\end{itemize}
+}
 
 ## Beiträge der Dissertation zur Forschung
 

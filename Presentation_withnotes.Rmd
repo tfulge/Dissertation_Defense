@@ -64,7 +64,7 @@ Kumulativ, bestehend aus einem Intro-Kapitel und drei Einzelarbeiten, die hier e
 \item{Wie können Hochschulsysteme möglichst ganzheitlich konzeptualisiert werden?}
 \item{Welche Varianz zeigt sich zwischen Ländern sowie über die Zeit?}
 \item{Welche (re)distributiven Implikationen haben unterschiedliche Designs von Hochschulsystemen?}
-\item{Wie können Unterschiede erklärt werden?}
+\item{Wie kann Politikwandel erklärt werden?}
 \end{itemize}
 \end{alertblock}
 
@@ -227,18 +227,48 @@ Wie strukturiert das institutionelle Design des Hochschulsystems den Zugang zu u
 \end{itemize}
 \end{alertblock}
 
+\note{
+\begin{block}{Forschungsfrage}
+\tiny
+Wie strukturiert das institutionelle Design des Hochschulsystems den Zugang zu universitärer Bildung? Mindert oder verstärkt es Effekte sozialer Herkunft?
+\end{block}
+
+\begin{exampleblock}{Theorie}
+\begin{itemize}
+\tiny
+\item{Ungleichheitsbezogene Bildungsforschung: Soziale Herkunft (hier = elterlicher Bildungsstand) sagt systematisch Erfolg im Bildungssystem voraus}
+\begin{itemize}
+\tiny
+\item{Kosten-Nutzen-Kalkulation: $P_{HE} = (p * U) - C_{HE}$}
+\end{itemize}
+\item{Politische Ökonomie der Hochschulbildung: Studierendenzahl (\textit{Enrolment}) und Level öffentlicher Bezuschussung (\textit{Public Subsidization}) könnte Kosten-Nutzen-Kalkulation beeinflussen}
+\end{itemize}
+\end{exampleblock}
+
+\begin{alertblock}{Daten \& Methode}
+\begin{itemize}
+\tiny
+\item{Zentrale Variablen: \textit{Student} (AV); \textit{Parental Education}, \textit{Enrolment}, \textit{Public Subsidization} (UVs)}
+\item{Daten: Gepoolte Wellen des European Social Survey (2002-2010), Makrodaten vom UNESCO Institute for Statistics (22 Länder, 16.278 Beobachtungen)}
+\item{Methode: Hierarchische logistische Regression mit Random Intercepts + Slopes}
+\end{itemize}
+\end{alertblock}
+}
+
 ## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Zusammenfassung)
 \scriptsize
-$$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} + \cdots + \zeta_{j} + \epsilon_{ij}$$
+- Länderübergreifend starker Einfluss von sozialem Hintergrund auf Studiumswahrscheinlichkeit
+$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} + \cdots + \zeta_{j} + \epsilon_{ij}$
 ```{r, fig.cap = "Geschätzte Randmittel, Fixed Effect von elterlicher Bildung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, out.height= "5cm"}
 knitr::include_graphics("Figures/01_Inequality/Figure 4.jpg")
 ```
+
 
 ## Paper #1: *The Trilemma of Higher Education and Equality of Opportunity* (Zusammenfassung)
 \scriptsize
 - Länderübergreifend starker Einfluss von sozialem Hintergrund auf Studiumswahrscheinlichkeit
 - Effektstärke variiert erheblich zwischen den Ländern
-§$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}x_{2ij} + \cdots + \zeta_{j}Parental\:Education_{ij} + \epsilon_{ij}$$
+$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}x_{2ij} + \cdots + \zeta_{j}Parental\:Education_{ij} + \epsilon_{ij}$
 ```{r, fig.cap = "Effekt elterlicher Bildung auf Studiumswahrscheinlichkeit, nach Ländern",echo = F,warning = F, message = F, , out.height= "5cm"}
 knitr::include_graphics("Figures/01_Inequality/Figure 3.jpg")
 ```
@@ -248,10 +278,11 @@ knitr::include_graphics("Figures/01_Inequality/Figure 3.jpg")
 - Länderübergreifend starker Einfluss von sozialem Hintergrund auf Studiumswahrscheinlichkeit
 - Effektstärke variiert erheblich zwischen den Ländern
 - Teil der Varianz zwischen den Ländern kann mit dem Level öffentlicher Bezuschussung erklärt werden: Je generöser studentischer Subventionen sind, desto geringer fällt der Einfluss des sozialen Hintergrunds auf die Studiumswahrscheinlichkeit aus. Kein Effekt der Studierendenquote
-$$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} *\beta_{3}Enrolment\: /\: Public\:Subsidization_{j} + \cdots + \zeta_{j} + \epsilon_{i}$$
+$logit\{Pr(Student_{ij} = 1|,x_{ij}|,\zeta_{j})\} = \beta_{1} + \beta_{2}Parental\:Education_{ij} *\beta_{3}Enrolment\: /\: Public\:Subsidization_{j} + \cdots + \zeta_{j} + \epsilon_{i}$
 ```{r, fig.cap = "Cross-Level Interaktionseffekt von elterlicher Bildung und öffentlicher Bezuschussung auf Studiumswahrscheinlichkeit",echo = F,warning = F, message = F, , out.height= "4cm"}
 knitr::include_graphics("Figures/01_Inequality/Figure5.JPG")
 ```
+
 
 ## Paper #2: *Explaining Institutional Change in UK Higher Education: Towards A Partisan Theory?* (Forschungsdesign)
 
@@ -259,7 +290,6 @@ knitr::include_graphics("Figures/01_Inequality/Figure5.JPG")
 \begin{block}{Forschungsfragen}
 \scriptsize
 \begin{itemize}
-\item{Wie kann das institutionelle Design von Hochschulsystemen beschrieben und über die Zeit nachgezeichnet werden?}
 \item{Mit welchen Hemmnissen und Zielkonflikten ist die Politik bei Reformbemühungen konfrontiert?}
 \item{Können generalisierbare parteipolitische Präferenzen zum Design von Hochschulsystemen identifiziert werden?}
 \end{itemize}
@@ -307,7 +337,7 @@ Nichts weiter zu Gerring sagen
 \end{itemize}
 
 \note{
-Insgesamt werden im Paper vier Reformperioden mit unterschiedlicher parteipolitischer Zusammensetzung der Regierungen untersucht, die ich jetzt aber nicht im Detail beschreiben werde (beim Versuch mal mein persönliches Waterloo bei demselben Paper erlebt)
+Insgesamt werden im Paper vier Reformperioden mit unterschiedlicher parteipolitischer Zusammensetzung der Regierungen untersucht, die ich jetzt aber nicht im Detail beschreiben werde
 
 Sie sind hier trotzdem einmal genannt, vielleicht für spätere Referenz
 }
@@ -316,7 +346,6 @@ Sie sind hier trotzdem einmal genannt, vielleicht für spätere Referenz
 
 \begin{itemize}
 \item{Reformen angetrieben durch ökonomischen Problemdruck und Feedbackeffekte, aber auch parteipolitischen Präferenzen}
-\item{Parteiübergreifender Konsens über private Teilfinanzierung des Hochschulsystems}
 \item{\textbf{Tory:} Reduktion öffentlicher Mittel für Hochschulen, gleichzeitig Sicherung hoher Qualität an Eliteinstitutionen}
 \item{\textbf{Labour:} Fokus auf Reduktion von Ungleichheiten im Zugang zu Hochschulen trotz Einführung von Studiengebühren}
 \end{itemize}
@@ -325,7 +354,6 @@ Sie sind hier trotzdem einmal genannt, vielleicht für spätere Referenz
 \begin{itemize}
 \scriptsize
 \item{Insgesamt kann man sagen: Reformen äufig angetrieben durch ökonomischen Problemdruck (Wirtschaftskrisen, Notwendigkeit besser gebildeter Arbeitnehmerschaft), oder auch Feedbackeffekte des bestehenden Systems (weitere Expansion der Studierendenquote nicht möglich ohne erhebliche Belastung des öffentlichen Haushalts). Aber: Parteipolitik spielt auch eine Rolle}
-\item{Es wurden ja unter Labor-Ägide 1997 Studiengebühren eingeführt, hierzu gibt es einen parteiübergreifenden Konsens}
 \item{Zu den parteipolitischen Präferenzen: Tories haben wiederholt öffentliche Ausgaben für Hochschulen reduziert (sowohl unter Thatcher in den 1980er Jahren als auch unter David Cameron), Ideologie des kleinen Staates. Gleichzeitig aber Schutz zumindest der Eliteinstitutionen, die weiterhin viele Mittel zur Verfügung hatten und ihre Studierenden stark selektieren konnten}
 \item{Labour dagegen: Haben zwar Studiengebühren eingeführt (und später sogar erhöht), aber trotzdem starker Fokus auf Reduzierung von Ungleichheiten}
 \begin{itemize}
@@ -353,11 +381,12 @@ Sie sind hier trotzdem einmal genannt, vielleicht für spätere Referenz
 
 \pause
 
+
 \begin{exampleblock}{Theorie}
 \begin{itemize}
 \scriptsize
-\item{Linke Parteien priorisieren Ermöglichung von Aufwärtsmobilität und Chancengleichheit, rechte Parteien möchten komparativen Vorteil ihrer Klientel schützen}
-\item{Präferenzen zur öffentlichen Finanzierung der Hochschulen hängen davon ab, inwieweit der Zugang sozial stratifiziert ist}
+\item{Linke Parteien priorisieren Ermöglichung von Aufwärtsmobilität und Chancengleichheit, rechte Parteien möchten komparativen Vorteil ihrer Klientel schützen (hohe Qualität)}
+\item{Präferenzen zur Finanzierung der Hochschulen hängen davon ab, inwieweit der Zugang sozial stratifiziert ist}
 \begin{itemize}
 \scriptsize
 \item{Bei ausgeprägter Ungleichheit: Rechte Parteien bevorzugen öffentliche, linke private Finanzierungsmechanismen}
@@ -365,6 +394,8 @@ Sie sind hier trotzdem einmal genannt, vielleicht für spätere Referenz
 \end{itemize}
 \end{itemize}
 \end{exampleblock}
+
+
 
 ## Paper #3: *The Role of Parties in the Distributive Politics of Higher Education* (Forschungsdesign)
 
@@ -389,6 +420,20 @@ $$y_{it} =  \beta_0 + \beta_{within}(x_{it} - \bar{x}_i) +
 \item{Moderate Hinweise auf systematischen Einfluss parteipolitischer Präferenzen}
 \begin{itemize}
 \item{\textbf{Ausgaben für Subventionen:} Linke Parteien erhöhen, rechte Parteien reduzieren Ausgaben}
+\item{\textbf{Öffentliche Ausgaben für Hochschulen:} Kein Effekt}
+\item{\textbf{Private Ausgaben für Hochschulen:} Linke Parteien reduzieren Ausgaben, rechte erhöhen sie (marginal signifikant)}
+\item{\textbf{Qualität:}Qualität steigt unter rechten Regierungen}
+\end{itemize}
+\item{\textbf{Kein} moderierender Effekt von Ungleichheit im Zugang}
+\item{Veränderungen stärker von strukturellen Faktoren (z.B. GDP, Deindustrialisierung) getrieben als von Parteipolitik}
+\end{itemize}
+
+\note{
+\scriptsize
+\begin{itemize}
+\item{Moderate Hinweise auf systematischen Einfluss parteipolitischer Präferenzen}
+\begin{itemize}
+\item{\textbf{Ausgaben für Subventionen:} Linke Parteien erhöhen, rechte Parteien reduzieren Ausgaben}
 \item{\textbf{Öffentliche Ausgaben für Hochschulen:} Nur between-Effekte (höhere Ausgaben, wenn rechte Parteien langfristig dominant)}
 \item{\textbf{Private Ausgaben für Hochschulen:} Linke Parteien reduzieren Ausgaben, rechte erhöhen sie (marginal signifikant)}
 \item{\textbf{Qualität:}Qualität steigt unter rechten Regierungen}
@@ -396,6 +441,7 @@ $$y_{it} =  \beta_0 + \beta_{within}(x_{it} - \bar{x}_i) +
 \item{\textbf{Kein} moderierender Effekt von Ungleichheit im Zugang}
 \item{Veränderungen stärker von strukturellen Faktoren (z.B. GDP, Deindustrialisierung) getrieben als von Parteipolitik}
 \end{itemize}
+}
 
 ## Beiträge der Dissertation zur Forschung
 
@@ -408,6 +454,16 @@ $$y_{it} =  \beta_0 + \beta_{within}(x_{it} - \bar{x}_i) +
 - Y-Zentrierter Ansatz anstatt parsimonischer Erklärung
 
 - Akzentuierung negativer Feedback-Effekte
+
+\note{
+- Ungleichheit im Zugang zu Hochschulbildung im Zentrum der Analyse
+  - Längs- und querschnittliche Effekte empirisch modelliert
+  - Aber: Nur europäische Staaten
+  
+- Y-Zentrierter Ansatz anstatt parsimonischer Erklärung
+
+- Akzentuierung negativer Feedback-Effekte
+}
 
 
 
